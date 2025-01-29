@@ -1,7 +1,7 @@
 id: 'skyvoid_worldgen_noxiousvex'
 name: 'Sky Void'
 author: 'BPR'
-version: 1.0.2
+version: 1.0.3
 
 require: 
   - src.plugins.worldgen.generate.base_with_main_end_island
@@ -12,3 +12,10 @@ data_pack:
 pipeline:
   - src.plugins.worldgen.get_empty_biomes.spawners
   - src.plugins.worldgen.get_empty_structures.spawners
+  - beet_observer
+
+meta:
+  observer:
+    default_format: 61
+    overlays:
+      - process: https://github.com/BPR02/SkyBlock_Collection/releases/download/v2.1.6/skyvoid_worldgen_noxiousvex_v1_0_2-MC_1_21.zip

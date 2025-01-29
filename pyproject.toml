@@ -12,6 +12,7 @@ beet = { git = "https://github.com/misode/beet.git", rev = "fix-overlay-folders"
 mecha = ">=0.95.2"
 bolt = ">=0.49.1"
 requests = "^2.32.3"
+beet-observer = "^0.7.1"
 
 [tool.poetry.dev-dependencies]
 black = "^22.6.0"

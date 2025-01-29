@@ -1,7 +1,7 @@
 id: 'skyvoid_vanilla_oneblock'
 name: 'Vanilla One Block'
 author: 'BPR'
-version: 2.0.2
+version: 2.0.3
 
 pipeline:
   - src.plugins.bundle.vanilla_oneblock

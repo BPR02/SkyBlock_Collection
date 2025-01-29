@@ -6,7 +6,9 @@ from zipfile import ZipFile
 import json
 from .get_empty_biomes import geode_purge
 from typing import Any
+import os
 
+VERSION = os.getenv('VERSION', '1.21.4')
 MAJOR_VERSION = "1_21"
 
 def terralith(ctx: Context):
@@ -128,6 +130,7 @@ def get_biomes_in_tag(zip: ZipFile, overlay_name: str, namespace: str, name: str
 
 def get_modified_vanilla_biomes(ctx: Context, zip: ZipFile, overlay_name: str):
   vanilla = ctx.inject(Vanilla)
+  vanilla.minecraft_version = VERSION
   biomes = vanilla.mount("data/minecraft/worldgen").data[WorldgenBiome]
 
   modified_biomes: list[str] = []

@@ -1,7 +1,7 @@
 id: 'skyvoid_worldgen_pinu'
 name: 'Sky Void (Pinu Custom)'
 author: 'BPR'
-version: 2.0.2
+version: 2.0.3
 
 require: 
   - src.plugins.worldgen.generate.base_with_end
@@ -12,3 +12,10 @@ data_pack:
 pipeline:
   - src.plugins.worldgen.get_empty_biomes.normal_end
   - src.plugins.worldgen.get_empty_structures.pinu
+  - beet_observer
+
+meta:
+  observer:
+    default_format: 61
+    overlays:
+      - process: https://github.com/BPR02/SkyBlock_Collection/releases/download/v2.1.6/skyvoid_worldgen_pinu_v2_0_2-MC_1_21.zip

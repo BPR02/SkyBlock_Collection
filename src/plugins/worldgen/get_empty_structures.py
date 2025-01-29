@@ -2,7 +2,9 @@ from beet import Context, Structure
 from beet.contrib.vanilla import Vanilla
 import re
 from nbtlib import * # type: ignore
+import os
 
+VERSION = os.getenv('VERSION', '1.21.4')
 NAME = "skyvoid_worldgen"      # name of the module
 DIR = f"worldgen/{NAME}/data"
 TEMP_PATH = f"worldgen/{NAME}/temp_files"
@@ -184,6 +186,7 @@ def gen(ctx:Context, target_structures:list[str], kept_pieces:list[str], kept_bl
       return
 
     vanilla = ctx.inject(Vanilla)
+    vanilla.minecraft_version = VERSION
     structures = vanilla.mount("data/minecraft").data[Structure]
 
     for structure in structures.keys():

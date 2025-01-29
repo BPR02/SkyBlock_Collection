@@ -1,7 +1,7 @@
 id: 'skyvoid_no_end_ship'
 name: 'Sky Void No End Ship'
 author: 'BPR'
-version: 1.1.1
+version: 1.1.2
 
 data_pack:
   load: .
