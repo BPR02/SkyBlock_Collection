@@ -1,0 +1,10 @@
+id: 'skyvoid_advancements_standard'
+name: 'SkyBlock Advancements'
+author: 'EpyonProjects'
+version: 2.0.0
+
+require:
+  - src.plugins.advancements.generate
+
+data_pack:
+  load: .

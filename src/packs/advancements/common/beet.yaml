@@ -1,0 +1,10 @@
+id: 'skyvoid_advancements_common'
+name: 'SkyBlock Advancements Base'
+author: 'EpyonProjects'
+version: 1.0.0
+
+data_pack:
+  load: .
+
+resource_pack:
+  load: .

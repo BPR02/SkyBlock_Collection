@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:snow_block"
+      },
+      "title": {
+        "translate": "advancements.skyvoid.overworld.snow.title",
+        "fallback": "A Compact Cloud"
+      },
+      "description": {
+        "translate": "advancements.skyvoid.overworld.snow.description",
+        "fallback": "Craft your first type of block"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "skyvoid_advancements:overworld/iron_shovel",
+    "criteria": {
+      "snow_block": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:snow_block"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+  

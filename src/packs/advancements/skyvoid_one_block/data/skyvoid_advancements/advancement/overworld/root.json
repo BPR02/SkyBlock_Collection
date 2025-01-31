@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:grass_block"
+    },
+    "title": {
+      "translate": "advancements.skyvoid.overworld.root.title",
+      "fallback": "The Real One Block Challenge"
+    },
+    "description": {
+      "translate": "advancements.skyvoid.overworld.root.description",
+      "fallback": "Don't break it; it doesn't come back"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

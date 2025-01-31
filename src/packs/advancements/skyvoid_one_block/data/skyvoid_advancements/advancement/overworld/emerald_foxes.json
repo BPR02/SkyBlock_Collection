@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:emerald"
+      },
+      "title": {
+        "translate": "advancements.skyvoid.overworld.emerald_foxes.title",
+        "fallback": "My First Emerald"
+      },
+      "description": {
+        "translate": "advancements.skyvoid.overworld.emerald_foxes.description",
+        "fallback": "Obtain your first Emerald from a Fox"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "skyvoid_advancements:overworld/snow",
+    "criteria": {
+      "emerald": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:emerald"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+  

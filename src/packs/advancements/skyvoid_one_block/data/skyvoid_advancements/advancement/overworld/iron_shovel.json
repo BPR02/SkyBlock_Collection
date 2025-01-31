@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:iron_shovel"
+      },
+      "title": {
+        "translate": "advancements.skyvoid.overworld.iron_shovel.title",
+        "fallback": "Digging"
+      },
+      "description": {
+        "translate": "advancements.skyvoid.overworld.iron_shovel.description",
+        "fallback": "Steal a shovel from a corpse"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "skyvoid_advancements:overworld/jump",
+    "criteria": {
+      "iron_shovel": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:iron_shovel"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+  
