@@ -11,11 +11,11 @@ This data pack modifies the story and nether advancements to better guide the pr
 ## Rearranged for SkyBlock Progression
 The advancements in the story tab are rearranged and rewritten to support the skyblock progression instead of the vanilla progression. Some examples include moving the iron ingot advancement after a new advancement to kill a zombie since the first iron doesn't come from iron ore, but instead from killing zombies.
 
-![Iron Ingot Advancement](https://raw.githubusercontent.com/BluePsychoRanger/SkyBlock_Collection/main/images/iron_ingot_advancement.png)
+![Iron Ingot Advancement](https://raw.githubusercontent.com/BPR02/SkyBlock_Collection/main/images/iron_ingot_advancement.png)
 
 ## Guided Experience
 There are several added advancements that help players progress through the game without needing to already know random quirks in the game. Some examples include describing how to build a cobblestone generator, how to obtain a second water from bonemealing water, how to obtain grass without silk touch, and how to gain a second lava source. Most of these advancements give hints at these quirks instead of directly stating what they should do.
 
-![Cobblestone Generator Advancement](https://raw.githubusercontent.com/BluePsychoRanger/SkyBlock_Collection/main/images/cobblestone_gen_advancement.png)
+![Cobblestone Generator Advancement](https://raw.githubusercontent.com/BPR02/SkyBlock_Collection/main/images/cobblestone_gen_advancement.png)
 
-![Cauldron Advancement](https://raw.githubusercontent.com/BluePsychoRanger/SkyBlock_Collection/main/images/cauldron_advancement.png)
+![Cauldron Advancement](https://raw.githubusercontent.com/BPR02/SkyBlock_Collection/main/images/cauldron_advancement.png)
