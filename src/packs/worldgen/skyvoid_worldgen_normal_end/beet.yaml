@@ -1,7 +1,7 @@
 id: 'skyvoid_worldgen_normal_end'
 name: 'Normal End Sky Void'
 author: 'BPR'
-version: 2.0.3
+version: 2.0.4
 
 require: 
   - src.plugins.worldgen.generate.base_with_end

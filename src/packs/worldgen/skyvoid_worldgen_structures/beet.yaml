@@ -1,7 +1,7 @@
 id: 'skyvoid_worldgen_structures'
 name: 'Sky Void with Structures'
 author: 'BPR'
-version: 1.0.5
+version: 1.0.6
 
 require: 
   - src.plugins.worldgen.generate.base
