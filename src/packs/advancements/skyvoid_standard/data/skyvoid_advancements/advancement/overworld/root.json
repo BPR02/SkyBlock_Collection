@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:grass_block"
+    },
+    "title": {
+      "translate": "advancements.story.root.title",
+      "fallback": "SkyBlock"
+    },
+    "description": {
+      "translate": "advancements.skyvoid.overworld.root.description",
+      "fallback": "Use your knowledge and skills to make a world out of nothing"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

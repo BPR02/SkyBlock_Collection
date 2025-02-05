@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_ingot"
+    },
+    "title": {
+      "translate": "advancements.skyvoid.overworld.copper.title",
+      "fallback": "Underwater Mob Farm"
+    },
+    "description": {
+      "translate": "advancements.skyvoid.overworld.copper.description",
+      "fallback": "Obtain a Copper Ingot from killing Drowned"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "skyvoid_advancements:overworld/zombie_hunter",
+  "criteria": {
+    "drowned": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

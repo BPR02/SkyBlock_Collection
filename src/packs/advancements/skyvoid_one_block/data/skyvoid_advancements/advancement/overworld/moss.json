@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:moss_block"
+    },
+    "title": {
+      "translate": "advancements.skyvoid.overworld.moss.title",
+      "fallback": "Greener Grass"
+    },
+    "description": {
+      "translate": "advancements.skyvoid.overworld.moss.description",
+      "fallback": "Purchase a Moss Block to grow your first tree"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyvoid_advancements:overworld/emerald_foxes",
+  "criteria": {
+    "moss_block": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "minecraft:moss_block"
+        }
+      }
+    }
+  }
+}

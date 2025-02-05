@@ -1,0 +1,10 @@
+id: 'skyvoid_advancements_one_block'
+name: 'One Block Advancements'
+author: 'EpyonProjects'
+version: 1.0.0
+
+require:
+  - src.plugins.advancements.generate
+
+data_pack:
+  load: .

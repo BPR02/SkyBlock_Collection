@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": {
+      "translate": "advancements.skyvoid.overworld.jump.title",
+      "fallback": "Geronimo!"
+    },
+    "description": {
+      "translate": "advancements.skyvoid.overworld.jump.description",
+      "fallback": "Once you reach 2 hearts, jump off and try to spawn a zombie holding a shovel"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyvoid_advancements:overworld/save",
+  "criteria": {
+    "jump": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

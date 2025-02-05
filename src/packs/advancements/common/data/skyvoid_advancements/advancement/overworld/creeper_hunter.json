@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gunpowder"
+    },
+    "title": {
+      "translate": "advancements.skyvoid.overworld.creeper.title",
+      "fallback": "It Would Be A Ssshame..."
+    },
+    "description": {
+      "translate": "advancements.skyvoid.overworld.creeper.description",
+      "fallback": "Obtain Gunpowder"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "skyvoid_advancements:overworld/mob_farm",
+  "criteria": {
+    "gunpowder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gunpowder"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}
