@@ -9,4 +9,4 @@ execute unless predicate skyvoid_additions:sniffer_eggs_from_drowneds/sniffer_eg
 
 tag @s add skyvoid_sniffer_drowned
 item replace entity @s weapon.offhand with minecraft:sniffer_egg
-data modify entity @s HandDropChances[1] set value -327.670f
+data modify entity @s drop_chances.offhand set value 0.0f
