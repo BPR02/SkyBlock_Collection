@@ -9,4 +9,4 @@ gamerule doWeatherCycle false
 weather rain
 
 # remove player knockback resistance
-execute as @a run attribute @s knockback_resistance modifier remove skyvoid_vanilla_oneblock_starter:knockback_resistance
+execute as @a run attribute @s generic.knockback_resistance modifier remove skyvoid_vanilla_oneblock_starter:knockback_resistance

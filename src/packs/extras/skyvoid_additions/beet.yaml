@@ -9,11 +9,7 @@ require:
   - mecha.contrib.nesting
 data_pack:
   load: .
-  overlays:
-    - formats:
-        min_inclusive: 48
-        max_inclusive: 48
-      directory: skyvoid_1_21
+
 pipeline:
   - mecha
 

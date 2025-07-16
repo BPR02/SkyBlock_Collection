@@ -5,9 +5,3 @@ version: 1.1.7
 
 data_pack:
   load: .
-  overlays:
-    - formats:
-        min_inclusive: 48
-        max_inclusive: 48
-      directory: skyvoid_1_21
-
