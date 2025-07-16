@@ -4,7 +4,7 @@ import re
 from nbtlib import * # type: ignore
 import os
 
-VERSION = os.getenv('VERSION', '1.21.4')
+VERSION = os.getenv('VERSION', '1.21.5')
 NAME = "skyvoid_worldgen"      # name of the module
 DIR = f"worldgen/{NAME}/data"
 TEMP_PATH = f"worldgen/{NAME}/temp_files"

@@ -3,10 +3,9 @@ from beet.contrib.vanilla import Vanilla
 from beet.contrib.worldgen import WorldgenBiome, WorldgenPlacedFeature
 import os
 import requests
-from typing import Any
 
-VERSION = os.getenv('VERSION', '1.21.4')
-MAJOR_VERSION = "1_21"
+VERSION = os.getenv('VERSION', '1.21.5')
+MAJOR_VERSION = "1_21_5"
 NAME = "skyvoid_worldgen"      # name of the module
 DIR = f"worldgen/{NAME}/data"
 TEMP_PATH = f"worldgen/{NAME}/temp_files"
