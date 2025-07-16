@@ -3,7 +3,7 @@
 # to switch a setting, change the last number in the line (0 = off, 1 = on)
 # settings are sorted alphabetically, the first word(s) usually describe what item or mob becomes obtainable
 
-tellraw @s {"text":"Open the file to modify default values","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"skyvoid_additions/data/skyvoid_additions/functions/customize/default_values","color":"gray","italic":true}]}}
+tellraw @s {text:"Open the file to modify default values",color:"aqua",hover_event:{action:"show_text",value:[{text:"skyvoid_additions/data/skyvoid_additions/functions/customize/default_values",color:"gray",italic:true}]}}
 
 # on by default
 execute unless score amethyst_geode_creation skyvoid_config matches 0..1 run scoreboard players set amethyst_geode_creation skyvoid_config 1

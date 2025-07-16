@@ -320,35 +320,35 @@ for i, settings in enumerate(setting_pages, start=1):
     first_line = [
       "",
       {
-        "text": f"Skyblock Additions Config ({i}/{len(setting_pages)})  ",
-        "color": "yellow",
-        "clickEvent": {
-          "action": "open_url",
-          "value": "https://github.com/BPR02/SkyBlock_Collection"
+        text: f"Skyblock Additions Config ({i}/{len(setting_pages)})  ",
+        color: "yellow",
+        click_event: {
+          action: "open_url",
+          url: "https://github.com/BPR02/SkyBlock_Collection"
         },
-        "hoverEvent":{
-          "action":"show_text",
-          "contents":[
+        hover_event:{
+          action:"show_text",
+          value:[
             {
-              "text": "Created by BPR",
-              "color": "aqua"
+              text: "Created by BPR",
+              color: "aqua"
             }
           ]
         }
       },
       {
-        "text": "🔁",
-        "color": "green",
-        "clickEvent": {
-          "action": "run_command",
-          "value": "/function skyvoid_additions:customize/update_config/vanish_menu"
+        text: "\ud83d\udd01",
+        color: "green",
+        click_event: {
+          action: "run_command",
+          command: "/function skyvoid_additions:customize/update_config/vanish_menu"
         },
-        "hoverEvent":{
-          "action":"show_text",
-          "contents":[
+        hover_event:{
+          action:"show_text",
+          value:[
             {
-              "text": "Apply Changes (Refresh Data Pack)",
-              "color": "green"
+              text: "Apply Changes (Refresh Data Pack)",
+              color: "green"
             }
           ]
         }
@@ -357,27 +357,27 @@ for i, settings in enumerate(setting_pages, start=1):
     if (i == 1):
       n = [
         {
-          "text": "      "
+          text: "      "
         }
       ]
     else:
       n = [
         {
-          "text":"  "
+          text:"  "
         },
         {
-          "text": "⬅",
-          "color": "yellow",
-          "clickEvent": {
-            "action": "run_command",
-            "value": f"/function skyvoid_additions:customize/update_config/page_{i-1}"
+          text: "⬅",
+          color: "yellow",
+          click_event: {
+            action: "run_command",
+            command: f"/function skyvoid_additions:customize/update_config/page_{i-1}"
           },
-          "hoverEvent":{
-            "action":"show_text",
-            "contents":[
+          hover_event:{
+            action:"show_text",
+            value:[
               {
-                "text": "Previous Page",
-                "color": "gold"
+                text: "Previous Page",
+                color: "gold"
               }
             ]
           }
@@ -388,14 +388,14 @@ for i, settings in enumerate(setting_pages, start=1):
     if (i == len(setting_pages)):
       n = [
         {
-          "text":"       "
+          text:"       "
         }
       ]
     else:
       if (i != 1):
         n = [
           {
-            "text":"   "
+            text:"   "
           }
         ]
       else:
@@ -403,42 +403,42 @@ for i, settings in enumerate(setting_pages, start=1):
       n.append(
         [
           {
-            "text": "➡",
-            "color": "yellow",
-            "clickEvent": {
-              "action": "run_command",
-              "value": f"/function skyvoid_additions:customize/update_config/page_{i+1}"
+            text: "➡",
+            color: "yellow",
+            click_event: {
+              action: "run_command",
+              command: f"/function skyvoid_additions:customize/update_config/page_{i+1}"
             },
-            "hoverEvent":{
-              "action":"show_text",
-              "contents":[
+            hover_event:{
+              action:"show_text",
+              value:[
                 {
-                  "text": "Next Page",
-                  "color": "gold"
+                  text: "Next Page",
+                  color: "gold"
                 }
               ]
             }
           },
           {
-            "text":"   "
+            text:"   "
           }
         ]
       )
     first_line.extend(n)
 
     n = {
-      "text": "🚫",
-      "color": "red",
-      "clickEvent": {
-        "action": "run_command",
-        "value": f"/scoreboard players reset * skyvoid_config"
+      text: "\ud83d\udeab",
+      color: "red",
+      click_event: {
+        action: "run_command",
+        command: f"/scoreboard players reset * skyvoid_config"
       },
-      "hoverEvent":{
-        "action":"show_text",
-        "contents":[
+      hover_event:{
+        action:"show_text",
+        value:[
           {
-            "text": "Reset All to Default",
-            "color": "red"
+            text: "Reset All to Default",
+            color: "red"
           }
         ]
       }
@@ -449,87 +449,87 @@ for i, settings in enumerate(setting_pages, start=1):
 
 
     for j, setting in enumerate(settings, start = 1):
-      actionbar = "[\"\",{\"text\":\"" + setting.name + ": \",\"color\":\"light_purple\"},{\"score\":{\"name\":\"" + setting.id + "\",\"objective\":\"skyvoid_config\"},\"color\":\"gold\"}]"
+      actionbar = "[\"\",{text:\"" + setting.name + ": \",color:\"light_purple\"},{score:{name:\"" + setting.id + "\",objective:\"skyvoid_config\"},color:\"gold\"}]"
       tellraw @s [
         "",
         {
-          "text": setting.name,
-          "color": "light_purple",
-          "clickEvent": {
+          text: setting.name,
+          color: "light_purple",
+          click_event: {
             "action": "run_command",
-            "value": f"/title @s actionbar {actionbar}"
+            "command": f"/title @s actionbar {actionbar}"
           },
-          "hoverEvent":{
-            "action":"show_text",
-            "contents":[
+          hover_event:{
+            action:"show_text",
+            value:[
               {
-                "text": "Click to see current value\n",
-                "color": "gold"
+                text: "Click to see current value\n",
+                color: "gold"
               },
               {
-                "text": setting.desc,
-                "italic": true,
-                "color": "aqua"
+                text: setting.desc,
+                italic: true,
+                color: "aqua"
               }
             ]
           }
         },
         {
-          "text": "  "
+          text: "  "
         },
         {
-          "text": "✔",
-          "color": "green",
-          "clickEvent": {
-            "action": "run_command",
-            "value": f"/scoreboard players set {setting.id} skyvoid_config 1"
+          text: "✔",
+          color: "green",
+          click_event: {
+            action: "run_command",
+            command: f"/scoreboard players set {setting.id} skyvoid_config 1"
           },
-          "hoverEvent":{
-            "action":"show_text",
-            "contents":[
+          hover_event:{
+            action:"show_text",
+            value:[
               {
-                "text": "Enable",
-                "color": "green"
+                text: "Enable",
+                color: "green"
               }
             ]
           }
         },
         {
-          "text": "  "
+          text: "  "
         },
         {
-          "text": "❌",
-          "color": "red",
-          "clickEvent": {
-            "action": "run_command",
-            "value": f"/scoreboard players set {setting.id} skyvoid_config 0"
+          text: "❌",
+          color: "red",
+          click_event: {
+            action: "run_command",
+            command: f"/scoreboard players set {setting.id} skyvoid_config 0"
           },
-          "hoverEvent":{
-            "action":"show_text",
-            "contents":[
+          hover_event:{
+            action:"show_text",
+            value:[
               {
-                "text": "Disable",
-                "color": "red"
+                text: "Disable",
+                color: "red"
               }
             ]
           }
         },
         {
-          "text": "  "
+          text: "  "
         },
         {
-          "text": "🚫",
-          "color": "gray",
-          "clickEvent": {
-            "action": "run_command",
-            "value": f"/scoreboard players reset {setting.id} skyvoid_config"
+          text: "\ud83d\udeab",
+          color: "gray",
+          click_event: {
+            action: "run_command",
+            command: f"/scoreboard players reset {setting.id} skyvoid_config"
           },
-          "hoverEvent":{
-            "action":"show_text",
-            "contents":[
+          hover_event:{
+            action:"show_text",
+            value:[
               {
-                "text": "Reset to Default",
-                "color": "white"
+                text: "Reset to Default",
+                color: "white"
               }
             ]
           }

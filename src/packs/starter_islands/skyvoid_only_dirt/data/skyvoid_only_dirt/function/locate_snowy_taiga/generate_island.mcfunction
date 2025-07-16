@@ -16,4 +16,4 @@ gamemode survival @a
 
 # send warning
 execute unless predicate skyvoid_only_dirt:in_snowy_taiga run scoreboard players set $located skyvoid_only_dirt 0
-execute if score $located skyvoid_only_dirt matches 0 run tellraw @a [{"text":"The snowy taiga is very small! Click here to find a new one","color":"light_purple","hoverEvent": {"action": "show_text","contents": [{"text": "Rerun snowy taiga locator","color":"gold"}]},"clickEvent":{"action": "run_command","value": "/execute if score $located skyvoid_only_dirt matches 0 run function skyvoid_only_dirt:locate_snowy_taiga/start"}}]
+execute if score $located skyvoid_only_dirt matches 0 run tellraw @a [{text:"The snowy taiga is very small! Click here to find a new one",color:"light_purple",hover_event: {action: "show_text",value: [{text: "Rerun snowy taiga locator",color:"gold"}]},click_event:{action: "run_command",command: "/execute if score $located skyvoid_only_dirt matches 0 run function skyvoid_only_dirt:locate_snowy_taiga/start"}}]
