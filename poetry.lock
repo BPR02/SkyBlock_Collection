@@ -13,33 +13,29 @@ files = [
 
 [[package]]
 name = "beet"
-version = "0.108.5"
+version = "0.110.1"
 description = "The Minecraft pack development kit"
 optional = false
-python-versions = "^3.10"
-files = []
-develop = false
+python-versions = "<4.0,>=3.10"
+files = [
+    {file = "beet-0.110.1-py3-none-any.whl", hash = "sha256:93dc57ce3843cc559c38613371afd4925c8e391347c2e06e27fe7637aad8abe8"},
+    {file = "beet-0.110.1.tar.gz", hash = "sha256:24f060d4fab5ec1b9b32413eba39f0fb4aec2a75ea0a1340d7b9c28cbedadc07"},
+]
 
 [package.dependencies]
-click = "^8.1.7"
-click-help-colors = "^0.9.2"
+click = ">=8.1.7,<9.0.0"
+click-help-colors = ">=0.9.2,<0.10.0"
 colorama = {version = "*", markers = "sys_platform == \"win32\""}
-Jinja2 = "^3.1.2"
-nbtlib = "^1.12.1"
-pathspec = "^0.11.2"
-pydantic = "^2.5.2"
-PyYAML = "^6.0.1"
-toml = "^0.10.2"
-typing-extensions = "^4.8.0"
+Jinja2 = ">=3.1.2,<4.0.0"
+nbtlib = ">=1.12.1,<2.0.0"
+pathspec = ">=0.11.2,<0.12.0"
+pydantic = ">=2.5.2,<3.0.0"
+PyYAML = ">=6.0.1,<7.0.0"
+toml = ">=0.10.2,<0.11.0"
+typing-extensions = ">=4.8.0,<5.0.0"
 
 [package.extras]
 image = ["Pillow"]
-
-[package.source]
-type = "git"
-url = "https://github.com/misode/beet.git"
-reference = "fix-overlay-folders"
-resolved_reference = "f3cf797e1791d532cb23456821fd215b080e9fb3"
 
 [[package]]
 name = "beet-observer"
@@ -902,4 +898,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "af838e19b0c9d6feef6cea71f9011a14b4c076b1997483cca5203d451109b4e3"
+content-hash = "e9c9667ac2537cb89d8080191ce0b58c69361a7c9e6a0153656c86994c6a87fe"
