@@ -4,4 +4,4 @@
 # run from skyvoid_additions:mechanics/gold_block_bartering/check_time
 
 execute at @s run loot spawn ~ ~0.8 ~ loot skyvoid_additions:gameplay/gold_block_bartering/bartering
-data remove entity @s HandItems[1]
+data remove entity @s equipment.offhand
