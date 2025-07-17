@@ -6,6 +6,18 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:fern"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar_cane"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:allium"
         },
         {
@@ -27,6 +39,10 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:lily_of_the_valley"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:open_eyeblossom"
         },
         {
           "type": "minecraft:item",
@@ -54,18 +70,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:fern"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:brown_mushroom"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:red_mushroom"
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:beetroot_seeds"
         },
         {
@@ -79,68 +83,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:wheat_seeds"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:pumpkin"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:sugar_cane"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:vine"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:lily_pad",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 2
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:moss_block",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 2
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:pointed_dripstone",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 2
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:rooted_dirt",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 2
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:small_dripleaf",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 2
-            }
-          ]
         },
         {
           "type": "minecraft:item",
@@ -294,11 +236,61 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:red_sand",
+          "name": "minecraft:vine",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 4
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pale_hanging_moss",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_mushroom",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_mushroom",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lily_pad",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:small_dripleaf",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
             }
           ]
         },
@@ -311,6 +303,64 @@
               "count": 8
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_sand",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pointed_dripstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rooted_dirt",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:moss_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pale_moss_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wildflowers"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tall_dry_grass"
         },
         {
           "type": "minecraft:item",

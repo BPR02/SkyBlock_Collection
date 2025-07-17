@@ -3,6 +3,11 @@
     "minecraft:pumpkin",
     "minecraft:pufferfish_bucket",
     "minecraft:tropical_fish_bucket",
+    "#minecraft:logs_that_burn",
+    "minecraft:vine",
+    "minecraft:pale_hanging_moss",
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom",
     "minecraft:disc_fragment_5"
   ]
 }

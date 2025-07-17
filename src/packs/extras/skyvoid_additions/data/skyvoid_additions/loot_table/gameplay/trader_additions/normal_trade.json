@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 46,
+          "weight": 50,
           "value": "skyvoid_additions:gameplay/trader_additions/normal_trade/1_emerald"
         },
         {
@@ -35,7 +35,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 7,
+          "weight": 10,
           "value": "skyvoid_additions:gameplay/trader_additions/normal_trade/3_emeralds"
         },
         {
@@ -45,7 +45,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 8,
+          "weight": 10,
           "value": "skyvoid_additions:gameplay/trader_additions/normal_trade/5_emeralds"
         }
       ]

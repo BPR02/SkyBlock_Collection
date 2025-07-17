@@ -11,13 +11,10 @@
     "minecraft:red_tulip",
     "minecraft:white_tulip",
     "minecraft:fern",
-    "minecraft:brown_mushroom",
-    "minecraft:red_mushroom",
     "minecraft:beetroot_seeds",
     "minecraft:melon_seeds",
     "minecraft:pumpkin_seeds",
     "minecraft:wheat_seeds",
-    "minecraft:vine",
     "minecraft:black_dye",
     "minecraft:blue_dye",
     "minecraft:brown_dye",
@@ -35,6 +32,9 @@
     "minecraft:white_dye",
     "minecraft:yellow_dye",
     "minecraft:kelp",
+    "minecraft:wildflowers",
+    "minecraft:tall_dry_grass",
+    "minecraft:firefly_bush",
     "minecraft:sweet_berries",
     "minecraft:glow_berries"
   ]

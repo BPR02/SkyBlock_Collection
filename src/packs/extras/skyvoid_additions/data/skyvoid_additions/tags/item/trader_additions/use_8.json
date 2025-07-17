@@ -15,8 +15,9 @@
     "minecraft:jungle_sapling",
     "minecraft:oak_sapling",
     "minecraft:spruce_sapling",
+    "minecraft:cherry_sapling",
+    "minecraft:pale_oak_sapling",
     "minecraft:mangrove_propagule",
-    "minecraft:gunpowder",
     "minecraft:spore_blossom"
   ]
 }

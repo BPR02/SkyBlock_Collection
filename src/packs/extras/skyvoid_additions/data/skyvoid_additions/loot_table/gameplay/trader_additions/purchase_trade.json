@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "value": "skyvoid_additions:gameplay/trader_additions/purchase_trade/1_emerald"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "value": "skyvoid_additions:gameplay/trader_additions/purchase_trade/2_emeralds"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "skyvoid_additions:gameplay/trader_additions/purchase_trade/3_emeralds"
+        }
+      ]
+    }
+  ]
+}

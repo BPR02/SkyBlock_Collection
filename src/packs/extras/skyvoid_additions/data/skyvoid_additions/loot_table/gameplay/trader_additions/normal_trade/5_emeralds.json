@@ -14,6 +14,10 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:cherry_sapling"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:dark_oak_sapling"
         },
         {
@@ -23,6 +27,10 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:oak_sapling"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pale_oak_sapling"
         },
         {
           "type": "minecraft:item",

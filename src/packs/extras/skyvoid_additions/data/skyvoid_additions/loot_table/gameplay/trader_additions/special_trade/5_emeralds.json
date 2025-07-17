@@ -6,11 +6,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:pufferfish_bucket"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:tropical_fish_bucket"
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_invisibility"
+            }
+          ]
         },
         {
           "type": "minecraft:item",

@@ -6,6 +6,18 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:tropical_fish_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pufferfish_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:kelp"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:cactus"
         },
         {
@@ -30,7 +42,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:kelp"
+          "name": "minecraft:firefly_bush"
         }
       ]
     },

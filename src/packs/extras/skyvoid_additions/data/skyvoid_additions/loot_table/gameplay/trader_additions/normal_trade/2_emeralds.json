@@ -6,6 +6,14 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:rose_bush"
         },
         {
@@ -19,14 +27,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:sunflower"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:glowstone"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:sea_pickle"
         }
       ]
     },
