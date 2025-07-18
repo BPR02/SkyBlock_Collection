@@ -40,6 +40,7 @@ execute unless score trader_additions skyvoid_config matches 0..1 run scoreboard
 execute unless score traders_with_camels skyvoid_config matches 0..1 run scoreboard players set traders_with_camels skyvoid_config 1
 execute unless score trial_spawner_from_sculk skyvoid_config matches 0..1 run scoreboard players set trial_spawner_from_sculk skyvoid_config 1
 execute unless score vaults_from_ominous_raid_captains skyvoid_config matches 0..1 run scoreboard players set vaults_from_ominous_raid_captains skyvoid_config 1
+execute unless score more_discs_from_vaults skyvoid_config matches 0..1 run scoreboard players set more_discs_from_vaults skyvoid_config 1
 
 # off by default
 execute unless score allay_conversion skyvoid_config matches 0..1 run scoreboard players set allay_conversion skyvoid_config 0

@@ -1,0 +1,167 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald_block",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_block",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 5
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:crossbow",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 10
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_axe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 10
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_chestplate",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:knockback",
+                "minecraft:punch",
+                "minecraft:smite",
+                "minecraft:looting",
+                "minecraft:multishot"
+              ]
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:breach",
+                "minecraft:density"
+              ]
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "enchantments": {
+                "minecraft:wind_burst": 1
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_creator_music_box",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "skyvoid_additions"
+                },
+                "score": "load.status"
+              },
+              "range": 1
+            },
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "more_discs_from_vaults"
+                },
+                "score": "skyvoid_config"
+              },
+              "range": 1
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:chests/trial_chambers/reward_ominous_rare",
+  "__smithed__": {
+    "rules": [
+      {
+        "type": "append",
+        "target": "pools[0].entries",
+        "source": {
+          "type": "reference",
+          "path": "pools[0].entries[10]"
+        }
+      }
+    ]
+  }
+}
