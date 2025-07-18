@@ -1,7 +1,7 @@
 execute unless score $starter_done skyvoid_vanilla_oneblock matches 1 run schedule function skyvoid_vanilla_oneblock_starter:tick 1t
 
 # give player knockback resistance
-execute as @e[type=player,scores={skyvoid_vanilla_oneblock_death=1..}] run attribute @s generic.knockback_resistance modifier add skyvoid_vanilla_oneblock_starter:knockback_resistance 1.0 add_value
+execute as @e[type=player,scores={skyvoid_vanilla_oneblock_death=1..}] run attribute @s knockback_resistance modifier add skyvoid_vanilla_oneblock_starter:knockback_resistance 1.0 add_value
 
 # deal 6 hearts upon first starving damage
 effect give @e[type=player,scores={skyvoid_vanilla_oneblock_death=1..,skyvoid_vanilla_oneblock_food=1}] instant_damage 1 1 true
