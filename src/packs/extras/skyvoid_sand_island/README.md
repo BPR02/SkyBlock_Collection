@@ -6,7 +6,7 @@ Support: [![BMC Badge](https://img.shields.io/badge/_%20-Buy%20Me%20a%20Coffee-b
 [![BisectHosting Badge](https://img.shields.io/badge/Rent%20a%20Server-black?logo=bisecthosting&logoColor=%2306ddff&labelColor=%23030525&color=%2337e3f3)](https://www.bisecthosting.com/skyvoid)
 
 # SkyBlock Sand Island
-This data pack adds a floating sand island that generates near 0 0. The sand island is made up of 27 sand blocks, a cactus, and a chest containing useful items. This pack may work with other skyblock data packs, but it's recommended to use [Standard SkyBlock](https://smithed.net/packs/standard-skyblock) for best compatibility.
+This data pack adds a floating sand island that generates near the world spawn point. The sand island is made up of 27 sand blocks, a cactus, and a chest containing useful items. This pack may work with other skyblock data packs, but it's recommended to use [Standard SkyBlock](https://smithed.net/packs/standard-skyblock) for best compatibility.
 
 ## Simpler SkyBlock Progression
 The chest on the island contains the following items:
