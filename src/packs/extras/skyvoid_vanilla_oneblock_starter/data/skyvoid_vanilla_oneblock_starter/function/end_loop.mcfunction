@@ -4,7 +4,6 @@
 # run from advancement obtain_shovel
 
 execute if score $starter_done skyvoid_vanilla_oneblock matches 1 run return 0
-scoreboard players set $starter_done skyvoid_vanilla_oneblock 1
 gamerule doWeatherCycle false
 weather rain
 
