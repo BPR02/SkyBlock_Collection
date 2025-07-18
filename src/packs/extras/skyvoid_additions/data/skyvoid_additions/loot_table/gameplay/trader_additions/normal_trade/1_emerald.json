@@ -364,6 +364,10 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:bush"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:glow_berries"
         },
         {
