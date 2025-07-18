@@ -14,6 +14,27 @@ This island will generate with 54 dirt, 26 grass blocks, 1 bedrock (at world spa
 
 ![Island](https://raw.githubusercontent.com/BPR02/SkyBlock_Collection/main/images/standard_main_island.jpg)
 
+### Sand Island
+A floating sand island will generates near the starter island. The sand island is made up of 27 sand blocks, a cactus, and a chest containing useful items. 
+
+The chest on the island contains the following items:
+- 10 Obsidian
+- 1 Sweet Berry
+- 1 Glow Berry
+- 1 Melon Slice
+- 1 Pumpkin Seed
+- 1 Sugar Cane
+- 1 Cobweb
+- 1 Cocoa Bean
+- 1 Mycelium
+- 1 Glow Lichen
+- 1 Sunflower
+- 1 Rose Bush
+- 1 Lilac
+- 1 Peony
+
+Most of these items are unobtainable in normal skyblock, but become renewable after obtaining one of them. While some of these items are obtainable through other methods, this data pack lessens the grind needed to get them. For example, the method to get to the nether without the given 10 obsidian is normally quite long and tedious; it requires obtaining emeralds, waiting for wandering traders to spawn, and generating lava with dripstone.
+
 ### Nether Island
 The nether island will generate with 40 netherrack, 7 crimson nylium, 7 warped nylium, 2 soul sand, 2 nether wart, and 14 obsidian for the portal.
 

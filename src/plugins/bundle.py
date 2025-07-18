@@ -29,6 +29,7 @@ all_worldgen = [
 def standard_skyblock(ctx: Context):
   island_path = ""
   generation_path = ""
+  extra_path = ""
   for filename in os.listdir("build"):
     f = os.path.join("build", filename)
     # checking if it is a file
@@ -36,11 +37,15 @@ def standard_skyblock(ctx: Context):
       island_path = f
     elif "skyvoid_worldgen_v" in f:
       generation_path = f
+    elif "skyvoid_sand_island_v" in f:
+      extra_path = f
 
   island = DataPack(path=island_path,extend_namespace=all_worldgen)
   generation = DataPack(path=generation_path,extend_namespace=all_worldgen)
+  extra = DataPack(path=extra_path,extend_namespace=all_worldgen)
 
   ctx.data.merge(generation)
+  ctx.data.merge(extra)
   ctx.data.merge(island)
 
 def vanilla_oneblock(ctx: Context):
