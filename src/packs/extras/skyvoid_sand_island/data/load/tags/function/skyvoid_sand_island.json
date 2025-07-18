@@ -1,5 +1,6 @@
 {
     "values": [
-        "skyvoid_sand_island:load"
+        {"id": "#load:skyvoid_worldgen", "required": false},
+        "skyvoid_sand_island:versioning/resolve_load"
     ]
 }
