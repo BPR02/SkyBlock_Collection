@@ -1,7 +1,7 @@
 id: 'skyvoid_biome_islands'
 name: 'SkyBlock Biome Islands'
 author: 'BPR'
-version: 1.0.3
+version: 1.0.4
 
 data_pack:
   load: .

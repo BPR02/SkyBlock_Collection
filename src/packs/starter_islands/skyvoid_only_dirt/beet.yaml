@@ -1,7 +1,7 @@
 id: 'skyvoid_island_only_dirt'
 name: 'Dirt SkyBlock Island'
 author: 'BPR'
-version: 1.1.2
+version: 1.1.3
 
 require: 
   - src.packs.starter_islands.skyvoid_only_dirt.generate_predicate
