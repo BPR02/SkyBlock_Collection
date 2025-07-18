@@ -11,6 +11,16 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:disc_fragment_5"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_clump",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
         }
       ]
     },
