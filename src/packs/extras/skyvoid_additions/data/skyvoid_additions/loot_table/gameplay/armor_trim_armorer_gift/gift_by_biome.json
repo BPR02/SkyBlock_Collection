@@ -194,6 +194,18 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:ward_armor_trim_smithing_template",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "structures": "minecraft:ancient_city"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:wild_armor_trim_smithing_template",
           "conditions": [
             {
