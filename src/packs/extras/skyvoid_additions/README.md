@@ -19,7 +19,7 @@ Geodes can be created with packed ice and lava. Surrounding a 2x2x2 cube of pack
 Hitting a mob wearing a chestplate can break the chestplate and drop one base material (e.g. diamond, netherite ingot, iron ingot)
 
 ### Armor Trim Gifts
-Armorers will gift armor trims based on the biome
+Armorers will gift armor trims based on the biome or structure they are in
 
 ### Bastion Loot from Suspicious Gravel
 Sniffers placing suspicious gravel in a bastion remnant can contain bastion loot.  
@@ -64,6 +64,9 @@ Piglins will barter pigstep, horse armor, gilded blackstone, nether wart, and ba
 ### Elder Guardians Drop Heart of the Sea
 Elder Guardians can drop a heart of the sea
 
+### Piglin Brutes Wear Netherite Armor
+Piglin brutes can spawn in bastion remnants wearing netherite armor
+
 ### Piglins Hold Netherite Upgrade Template
 Piglins can spawn in bastion remnants holding a netherite upgrade template
 
@@ -102,7 +105,7 @@ Foxes can spawn with sweet berries
 Librarians gift swift sneak if in an ancient city
 
 ### Additional Wandering Trades
-Otherside, relic, disc fragment 5, double tall flowers, and glow berries can be bought
+Otherside, relic, disc fragment 5, double tall flowers, glow berries, bushes, and resin clumps can be bought
 
 ### Traders with Camels
 Some wandering traders will have a camel on a leash instead of trader llamas
@@ -118,6 +121,9 @@ Players in trial chambers with Bad Omen V can convert shriekers into trial spawn
 
 ### Vaults from Ominous Raid Captains
 Raid Captains in a level 5 raid can replace bells with vaults within a trial chamber bounding box
+
+### More Discs from Vaults
+Ominous vaults can reward creator music box
 
 ## Extra Mechanics
 The following settings are disabled by default
