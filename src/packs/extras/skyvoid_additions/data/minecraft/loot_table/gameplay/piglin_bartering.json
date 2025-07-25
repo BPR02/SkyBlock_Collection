@@ -247,6 +247,18 @@
         },
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:dried_ghast",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
           "weight": 30,
           "name": "minecraft:netherrack",
           "functions": [
@@ -399,20 +411,12 @@
         "target": "pools[0].entries",
         "source": {
           "type": "reference",
-          "path": "pools[0].entries[18]"
-        }
-      },
-      {
-        "type": "append",
-        "target": "pools[0].entries[0].entries",
-        "source": {
-          "type": "reference",
           "path": "pools[0].entries[19]"
         }
       },
       {
         "type": "append",
-        "target": "pools[0].entries",
+        "target": "pools[0].entries[0].entries",
         "source": {
           "type": "reference",
           "path": "pools[0].entries[20]"
@@ -424,6 +428,14 @@
         "source": {
           "type": "reference",
           "path": "pools[0].entries[21]"
+        }
+      },
+      {
+        "type": "append",
+        "target": "pools[0].entries",
+        "source": {
+          "type": "reference",
+          "path": "pools[0].entries[22]"
         }
       }
     ]
