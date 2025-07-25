@@ -4,11 +4,11 @@ from bolt import Module
 import os
 
 VERSION = os.getenv("VERSION", "1.21.6")
-MAJOR_VERSION = "1_21_6"
+MAJOR_VERSION = "1_21_6-1_21_8"
 FORMAT = 80
-FORMATS = 80
+FORMATS = [80,81]
 RP_FORMAT = 63
-RP_FORMATS = 63
+RP_FORMATS = [63,64]
 
 def beet_default(ctx: Context):
 	"""Saves the datapack to the ./out folder."""

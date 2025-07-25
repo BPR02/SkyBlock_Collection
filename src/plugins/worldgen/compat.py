@@ -9,7 +9,7 @@ from typing import Any
 import os
 
 VERSION = os.getenv('VERSION', '1.21.6')
-MAJOR_VERSION = "1_21_6"
+MAJOR_VERSION = "1_21_6-1_21_8"
 
 def terralith(ctx: Context):
   url = "https://cdn.modrinth.com/data/8oi3bsk5/versions/4LsxILTH/Terralith_1.21_v2.5.5.zip"

@@ -5,7 +5,7 @@ import os
 import requests
 
 VERSION = os.getenv('VERSION', '1.21.6')
-MAJOR_VERSION = "1_21_6"
+MAJOR_VERSION = "1_21_6-1_21_8"
 NAME = "skyvoid_worldgen"      # name of the module
 DIR = f"worldgen/{NAME}/data"
 TEMP_PATH = f"worldgen/{NAME}/temp_files"
