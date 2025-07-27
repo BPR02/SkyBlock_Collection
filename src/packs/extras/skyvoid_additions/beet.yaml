@@ -1,7 +1,7 @@
 id: 'skyvoid_additions'
 name: 'Sky Void Additions'
 author: 'BPR'
-version: 1.3.1
+version: 1.3.2
 
 require:
   - bolt

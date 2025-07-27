@@ -1,7 +1,7 @@
 id: 'skyvoid_worldgen_noxiousvex'
 name: 'Sky Void'
 author: 'BPR'
-version: 1.0.5
+version: 1.0.6
 
 require: 
   - src.plugins.worldgen.generate.base_with_main_end_island

@@ -1,7 +1,7 @@
 id: 'skyvoid_standard_skyblock'
 name: 'Standard SkyBlock'
 author: 'BPR'
-version: 2.1.0
+version: 2.1.1
 
 pipeline:
   - src.plugins.bundle.standard_skyblock

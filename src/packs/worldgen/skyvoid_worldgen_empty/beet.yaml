@@ -1,7 +1,7 @@
 id: 'skyvoid_worldgen_empty'
 name: 'Empty Sky Void'
 author: 'BPR'
-version: 2.0.5
+version: 2.0.6
 
 require: 
   - src.plugins.worldgen.generate.base
