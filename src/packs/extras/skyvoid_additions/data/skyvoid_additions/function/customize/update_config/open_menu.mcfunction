@@ -164,7 +164,7 @@ all_settings = [
   {
     "id": "lava_toolsmith_gift",
     "name": "Lava Bucket Gifts",
-    "desc": "Weaponsmiths will gift lava buckets"
+    "desc": "Toolsmiths will gift lava buckets"
   },
   {
     "id": "nether_wart_from_bartering",

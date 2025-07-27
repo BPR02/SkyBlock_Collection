@@ -173,7 +173,7 @@ Lava can be bought for 5 emeralds
 
 ###  Lava Bucket Gifts
 *in Standard SkyBlock, lava is in the starter chest*  
-Weaponsmiths will gift lava buckets
+Toolsmiths will gift lava buckets
 
 ### Nether Wart Bartering
 *gold block bartering is the default way to get nether wart*  
