@@ -16,7 +16,7 @@ The following settings are enabled by default
 Geodes can be created with packed ice and lava. Surrounding a 2x2x2 cube of packed ice with lava will start the conversion. The four lava on top of the packed ice cube must be source blocks, and the rest can be flowing as long as every exposed side of the packed ice is touching lava.
 
 ### Armor Chipping
-Hitting a mob wearing a chestplate can break the chestplate and drop one base material (e.g. diamond, netherite ingot, iron ingot)
+Hitting a mob wearing a chestplate can break the chestplate and drop one or two base material (e.g. diamond, netherite ingot, iron ingot)
 
 ### Armor Trim Gifts
 Armorers will gift armor trims based on the biome or structure they are in
@@ -50,7 +50,7 @@ Amethyst clusters placed on a sculk catalyst will drop as echo shards when a pla
 Guardians struck by lightning will convert into elder guardians
 
 ### Cats Gift Enchanted Golden Apples
-Cats will gift enchanted golden apples while sleeping
+Tamed cats will gift enchanted golden apples while sleeping
 
 ### Endermites Convert Cobblestone to End Stone
 Endermites can dig into cobblestone to convert it to end stone
@@ -132,6 +132,13 @@ The following settings are disabled by default
 *in Standard SkyBlock, mansions and pillager towers generate with allays, but no blocks*  
 Vexes will play a note block above them and will listen for a matching note played by a player (no redstone). After 5 matching notes, it will convert into an allay.
 
+### Create Calcite from Dead Coral Blocks
+*amethyst geode creation is the default way to get calcite*  
+Dead coral blocks can be converted into calcite by placing them next to lava. The more lava around the block, the quicker it will convert (caped at 4 lava blocks, at least one of the lava block need to be a source block, the other can be flowing)
+
+### Tuff Convert into Deepslate
+Anvil falling on tuff will convert it into deepslate
+
 ### Coal Compresses into Diamonds
 *armor chipping is the default way to get diamonds (apart from end city ships)*  
 Anvils dropped on a stack of coal blocks will compress them into diamonds
@@ -199,13 +206,23 @@ Masons will gift pottery sherds based on the biome
 *burning husks on dirt is the default way to get sand and red sand*  
 Husks can drop sand and red sand
 
+### Gravel Convert into Sand
+*burning husks on dirt is the default way to get sand*  
+Anvil falling on gravel will convert it into sand
+
+### Sand Convert into Sandstone
+Anvil falling on sand will convert it into sandstone
+
+### Mason Trade Sandstone
+Mason leveling up to Journeyman level have a chance to sell sandstone and red sandstone
+
 ### Shrieker Endermen Spawn
 *in Standard SkyBlock sculk shriekers generate*  
 Endermen can spawn on deepslate tiles holding sculk shriekers that can spawn wardens when placed by the enderman
 
 ### Shulkers from Lightning
 *in Standard SkyBlock end cities generate with skulkers, but no blocks*  
-Purpur struck by lightning will convert into a shulker  
+Lightning hiting a lightning rod attached to a purpur block will convert it into a shulker  
 
 ### Wandering Traders Sell Sniffer Eggs
 *drowneds hatching sniffer eggs is the default way to get sniffers*  
@@ -223,6 +240,9 @@ Wandering traders will sell pottery sherds exclusive to trial chambers
 
 ### Heavy Core Renewability
 Falling anvils shot by a breeze have a chance to convert into a heavy core
+
+### Magma block Convert into Tuff
+A magma block hit by a wind charge will convert into tuff
 
 ### Ominous Keys from Ominous Raid Captains
 Raid Captains in a level 5 raid can drop ominous trial keys
