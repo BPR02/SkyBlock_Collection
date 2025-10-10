@@ -16,7 +16,7 @@ The following settings are enabled by default
 Geodes can be created with packed ice and lava. Surrounding a 2x2x2 cube of packed ice with lava will start the conversion. The four lava on top of the packed ice cube must be source blocks, and the rest can be flowing as long as every exposed side of the packed ice is touching lava.
 
 ### Armor Chipping
-Hitting a mob wearing a chestplate can break the chestplate and drop one base material (e.g. diamond, netherite ingot, iron ingot)
+Hitting a mob wearing a chestplate can break the chestplate and drop one or two base material (e.g. diamond, netherite ingot, iron ingot)
 
 ### Armor Trim Gifts
 Armorers will gift armor trims based on the biome or structure they are in
@@ -30,9 +30,6 @@ Some spiders spawned inside cobwebs (3x3) at light level 0 will spawn as cave sp
 
 ### Endermites Propogate Chorus
 Endermites can dig into end stone and convert it into a chorus flower. The end stone dug into must have another end stone block below.
-
-### Spiders Generate Cobwebs
-Spiders in ceiling edges will generate cobwebs
 
 ### Cocoa Bean Fishing
 Cocoa beans can be fished as junk in jungles
@@ -50,7 +47,7 @@ Amethyst clusters placed on a sculk catalyst will drop as echo shards when a pla
 Guardians struck by lightning will convert into elder guardians
 
 ### Cats Gift Enchanted Golden Apples
-Cats will gift enchanted golden apples while sleeping
+Tamed cats will gift enchanted golden apples while sleeping
 
 ### Endermites Convert Cobblestone to End Stone
 Endermites can dig into cobblestone to convert it to end stone
@@ -125,8 +122,25 @@ Raid Captains in a level 5 raid can replace bells with vaults within a trial cha
 ### More Discs from Vaults
 Ominous vaults can reward creator music box
 
+### Calcite from Dead Coral Blocks
+Dead coral blocks can be converted into calcite by placing them next to lava. The more lava around the block, the quicker it will convert (capped at 4 lava blocks, at least one of the lava block need to be a source block, the other can be flowing)
+
+### Magma Blocks Cool into Tuff
+A magma block hit by a wind charge will convert into tuff
+
+### Gravel Crushes into Sand
+Anvil falling on gravel will convert it into sand
+
+### Tuff Packs into Deepslate
+Anvil falling on tuff will convert it into deepslate
+
+
 ## Extra Mechanics
 The following settings are disabled by default
+
+### Spiders Generate Cobwebs
+*cobwebs are obtainable with the weaving effect*  
+Spiders in ceiling edges will generate cobwebs
 
 ### Vexes Convert to Allays
 *in Standard SkyBlock, mansions and pillager towers generate with allays, but no blocks*  
@@ -199,13 +213,19 @@ Masons will gift pottery sherds based on the biome
 *burning husks on dirt is the default way to get sand and red sand*  
 Husks can drop sand and red sand
 
+### Sand Packs into Sandstone
+Anvil falling on sand will convert it into sandstone
+
+### Mason Trade Sandstone
+Mason leveling up to Journeyman level have a chance to sell sandstone and red sandstone
+
 ### Shrieker Endermen Spawn
 *in Standard SkyBlock sculk shriekers generate*  
 Endermen can spawn on deepslate tiles holding sculk shriekers that can spawn wardens when placed by the enderman
 
 ### Shulkers from Lightning
 *in Standard SkyBlock end cities generate with skulkers, but no blocks*  
-Purpur struck by lightning will convert into a shulker  
+Lightning hitting a lightning rod attached to a purpur block will convert it into a shulker
 
 ### Wandering Traders Sell Sniffer Eggs
 *drowneds hatching sniffer eggs is the default way to get sniffers*  

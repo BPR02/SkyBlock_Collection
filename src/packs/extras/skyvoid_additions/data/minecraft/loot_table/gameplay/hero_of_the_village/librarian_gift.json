@@ -15,10 +15,10 @@
           "name": "minecraft:book",
           "functions": [
             {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:swift_sneak": 1
-              }
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:swift_sneak"
+              ]
             }
           ],
           "conditions": [

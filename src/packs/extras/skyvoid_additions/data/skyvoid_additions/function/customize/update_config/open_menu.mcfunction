@@ -37,6 +37,11 @@ all_settings = [
     "desc": "Sniffers placing suspicious gravel in a bastion remnant can contain bastion loot.\n**Requires Sneezy Suspicious Sniffers"
   },
   {
+    "id": "calcite_from_dead_coral",
+    "name": "Calcite from Dead Coral Blocks",
+    "desc": "Dead coral blocks can be converted into calcite by placing them next to lava. The more lava around the block, the quicker it will convert (capped at 4 lava blocks, at least one of the lava block need to be a source block, the other can be flowing)."
+  },
+  {
     "id": "cave_spiders_in_cobwebs",
     "name": "Cave Spiders Spawn in Cobwebs",
     "desc": "Some spiders spawned inside cobwebs (3x3) at light level 0 will spawn as cave spiders"
@@ -75,6 +80,11 @@ all_settings = [
     "id": "dead_bushes_from_fishing",
     "name": "Dead Bush Fishing",
     "desc": "Dead bushes can be fished as junk in deserts and badlands"
+  },  
+  {
+    "id": "deepslate_from_tuff",
+    "name": "Tuff Crushes into Deepslate",
+    "desc": "Anvil falling on tuff will convert it into deepslate"
   },
   {
     "id": "diamonds_from_coal_blocks",
@@ -227,9 +237,24 @@ all_settings = [
     "desc": "Husks that die on fire will convert dirt into sand below them, and coarse dirt into red sand"
   },
   {
+    "id": "sand_from_gravel",
+    "name": "Gravel Crushes into Sand",
+    "desc": "Anvil falling on gravel will convert it into sand"
+  },
+  {
     "id": "sand_from_husk_kill",
     "name": "Husks Drop Sand",
     "desc": "Husks can drop sand and red sand"
+  },
+  {
+    "id": "sandstone_from_packing_sand",
+    "name": "Sand Packs into Sandstone",
+    "desc": "Anvil falling on sand will convert it into sandstone"
+  },
+  {
+    "id": "sandstone_mason_trade",
+    "name": "Mason Trade Sandstone",
+    "desc": "Mason leveling up to Journeyman level have a chance to sell sandstone and red sandstone"
   },
   {
     "id": "shriekers_from_enderman",
@@ -239,7 +264,7 @@ all_settings = [
   {
     "id": "shulkers_from_lightning",
     "name": "Shulkers from Lightning",
-    "desc": "Purpur struck by lightning will convert into a shulker"
+    "desc": "Lightning hitting a lightning rod attached to a purpur block will convert it into a shulker"
   },
   {
     "id": "silverfish_from_lightning",
@@ -300,6 +325,11 @@ all_settings = [
     "id": "trial_spawner_from_sculk",
     "name": "Trial Spawners from Sculk",
     "desc": "Players in trial chambers with Bad Omen V can convert shriekers into trial spawners by killing mobs on shriekers above a catalyst"
+  },
+  {
+    "id": "tuff_from_magma",
+    "name": "Magma Blocks Cool into Tuff",
+    "desc": "A magma block hit by a wind charge will convert into tuff"
   },
   {
     "id": "vaults_from_ominous_raid_captains",
