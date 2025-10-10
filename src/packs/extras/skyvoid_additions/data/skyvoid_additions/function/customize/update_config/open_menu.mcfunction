@@ -38,8 +38,8 @@ all_settings = [
   },
   {
     "id": "calcite_from_dead_coral",
-    "name": "Create Calcite from Dead Coral Blocks",
-    "desc": "Dead coral blocks can be converted into calcite by placing them next to lava. The more lava around the block, the quicker it will convert (caped at 4 lava blocks, at least one of the lava block need to be a source block, the other can be flowing)."
+    "name": "Calcite from Dead Coral Blocks",
+    "desc": "Dead coral blocks can be converted into calcite by placing them next to lava. The more lava around the block, the quicker it will convert (capped at 4 lava blocks, at least one of the lava block need to be a source block, the other can be flowing)."
   },
   {
     "id": "cave_spiders_in_cobwebs",
@@ -83,7 +83,7 @@ all_settings = [
   },  
   {
     "id": "deepslate_from_tuff",
-    "name": "Tuff Convert into Deepslate",
+    "name": "Tuff Crushes into Deepslate",
     "desc": "Anvil falling on tuff will convert it into deepslate"
   },
   {
@@ -238,7 +238,7 @@ all_settings = [
   },
   {
     "id": "sand_from_gravel",
-    "name": "Gravel Convert into Sand",
+    "name": "Gravel Crushes into Sand",
     "desc": "Anvil falling on gravel will convert it into sand"
   },
   {
@@ -248,7 +248,7 @@ all_settings = [
   },
   {
     "id": "sandstone_from_packing_sand",
-    "name": "Sand Convert into Sandstone",
+    "name": "Sand Packs into Sandstone",
     "desc": "Anvil falling on sand will convert it into sandstone"
   },
   {
@@ -264,7 +264,7 @@ all_settings = [
   {
     "id": "shulkers_from_lightning",
     "name": "Shulkers from Lightning",
-    "desc": "Lightning hiting a lightning rod attached to a purpur block will convert it into a shulker"
+    "desc": "Lightning hitting a lightning rod attached to a purpur block will convert it into a shulker"
   },
   {
     "id": "silverfish_from_lightning",
@@ -328,7 +328,7 @@ all_settings = [
   },
   {
     "id": "tuff_from_magma",
-    "name": "Magma block Convert into Tuff",
+    "name": "Magma Blocks Cool into Tuff",
     "desc": "A magma block hit by a wind charge will convert into tuff"
   },
   {

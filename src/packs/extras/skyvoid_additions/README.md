@@ -31,9 +31,6 @@ Some spiders spawned inside cobwebs (3x3) at light level 0 will spawn as cave sp
 ### Endermites Propogate Chorus
 Endermites can dig into end stone and convert it into a chorus flower. The end stone dug into must have another end stone block below.
 
-### Spiders Generate Cobwebs
-Spiders in ceiling edges will generate cobwebs
-
 ### Cocoa Bean Fishing
 Cocoa beans can be fished as junk in jungles
 
@@ -125,19 +122,29 @@ Raid Captains in a level 5 raid can replace bells with vaults within a trial cha
 ### More Discs from Vaults
 Ominous vaults can reward creator music box
 
+### Calcite from Dead Coral Blocks
+Dead coral blocks can be converted into calcite by placing them next to lava. The more lava around the block, the quicker it will convert (capped at 4 lava blocks, at least one of the lava block need to be a source block, the other can be flowing)
+
+### Magma Blocks Cool into Tuff
+A magma block hit by a wind charge will convert into tuff
+
+### Gravel Crushes into Sand
+Anvil falling on gravel will convert it into sand
+
+### Tuff Packs into Deepslate
+Anvil falling on tuff will convert it into deepslate
+
+
 ## Extra Mechanics
 The following settings are disabled by default
+
+### Spiders Generate Cobwebs
+*cobwebs are obtainable with the weaving effect*  
+Spiders in ceiling edges will generate cobwebs
 
 ### Vexes Convert to Allays
 *in Standard SkyBlock, mansions and pillager towers generate with allays, but no blocks*  
 Vexes will play a note block above them and will listen for a matching note played by a player (no redstone). After 5 matching notes, it will convert into an allay.
-
-### Create Calcite from Dead Coral Blocks
-*amethyst geode creation is the default way to get calcite*  
-Dead coral blocks can be converted into calcite by placing them next to lava. The more lava around the block, the quicker it will convert (caped at 4 lava blocks, at least one of the lava block need to be a source block, the other can be flowing)
-
-### Tuff Convert into Deepslate
-Anvil falling on tuff will convert it into deepslate
 
 ### Coal Compresses into Diamonds
 *armor chipping is the default way to get diamonds (apart from end city ships)*  
@@ -206,11 +213,7 @@ Masons will gift pottery sherds based on the biome
 *burning husks on dirt is the default way to get sand and red sand*  
 Husks can drop sand and red sand
 
-### Gravel Convert into Sand
-*burning husks on dirt is the default way to get sand*  
-Anvil falling on gravel will convert it into sand
-
-### Sand Convert into Sandstone
+### Sand Packs into Sandstone
 Anvil falling on sand will convert it into sandstone
 
 ### Mason Trade Sandstone
@@ -222,7 +225,7 @@ Endermen can spawn on deepslate tiles holding sculk shriekers that can spawn war
 
 ### Shulkers from Lightning
 *in Standard SkyBlock end cities generate with skulkers, but no blocks*  
-Lightning hiting a lightning rod attached to a purpur block will convert it into a shulker  
+Lightning hitting a lightning rod attached to a purpur block will convert it into a shulker
 
 ### Wandering Traders Sell Sniffer Eggs
 *drowneds hatching sniffer eggs is the default way to get sniffers*  
@@ -240,9 +243,6 @@ Wandering traders will sell pottery sherds exclusive to trial chambers
 
 ### Heavy Core Renewability
 Falling anvils shot by a breeze have a chance to convert into a heavy core
-
-### Magma block Convert into Tuff
-A magma block hit by a wind charge will convert into tuff
 
 ### Ominous Keys from Ominous Raid Captains
 Raid Captains in a level 5 raid can drop ominous trial keys

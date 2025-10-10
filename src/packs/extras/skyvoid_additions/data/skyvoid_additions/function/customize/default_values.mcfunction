@@ -41,13 +41,15 @@ execute unless score traders_with_camels skyvoid_config matches 0..1 run scorebo
 execute unless score trial_spawner_from_sculk skyvoid_config matches 0..1 run scoreboard players set trial_spawner_from_sculk skyvoid_config 1
 execute unless score vaults_from_ominous_raid_captains skyvoid_config matches 0..1 run scoreboard players set vaults_from_ominous_raid_captains skyvoid_config 1
 execute unless score more_discs_from_vaults skyvoid_config matches 0..1 run scoreboard players set more_discs_from_vaults skyvoid_config 1
+execute unless score tuff_from_magma skyvoid_config matches 0..1 run scoreboard players set tuff_from_magma skyvoid_config 1
+execute unless score calcite_from_dead_coral skyvoid_config matches 0..1 run scoreboard players set calcite_from_dead_coral skyvoid_config 1
+execute unless score deepslate_from_tuff skyvoid_config matches 0..1 run scoreboard players set deepslate_from_tuff skyvoid_config 1
+execute unless score sand_from_gravel skyvoid_config matches 0..1 run scoreboard players set sand_from_gravel skyvoid_config 1
 
 # off by default
 execute unless score allay_conversion skyvoid_config matches 0..1 run scoreboard players set allay_conversion skyvoid_config 0
-execute unless score calcite_from_dead_coral skyvoid_config matches 0..1 run scoreboard players set calcite_from_dead_coral skyvoid_config 0
 execute unless score chamber_sherds_from_traders skyvoid_config matches 0..1 run scoreboard players set chamber_sherds_from_traders skyvoid_config 0
 execute unless score cobwebs_from_spiders skyvoid_config matches 0..1 run scoreboard players set cobwebs_from_spiders skyvoid_config 0
-execute unless score deepslate_from_tuff skyvoid_config matches 0..1 run scoreboard players set deepslate_from_tuff skyvoid_config 0
 execute unless score diamonds_from_coal_blocks skyvoid_config matches 0..1 run scoreboard players set diamonds_from_coal_blocks skyvoid_config 0
 execute unless score dragon_egg_drop skyvoid_config matches 0..1 run scoreboard players set dragon_egg_drop skyvoid_config 0
 execute unless score dragon_elytra_drop skyvoid_config matches 0..1 run scoreboard players set dragon_elytra_drop skyvoid_config 0
@@ -65,7 +67,6 @@ execute unless score netherrack_from_bartering skyvoid_config matches 0..1 run s
 execute unless score nylium_from_bartering skyvoid_config matches 0..1 run scoreboard players set nylium_from_bartering skyvoid_config 0
 execute unless score portal_frame_from_enderman skyvoid_config matches 0..1 run scoreboard players set portal_frame_from_enderman skyvoid_config 0
 execute unless score pottery_sherd_mason_gift skyvoid_config matches 0..1 run scoreboard players set pottery_sherd_mason_gift skyvoid_config 0
-execute unless score sand_from_gravel skyvoid_config matches 0..1 run scoreboard players set sand_from_gravel skyvoid_config 0
 execute unless score sand_from_husk_kill skyvoid_config matches 0..1 run scoreboard players set sand_from_husk_kill skyvoid_config 0
 execute unless score sandstone_from_packing_sand skyvoid_config matches 0..1 run scoreboard players set sandstone_from_packing_sand skyvoid_config 0
 execute unless score silverfish_from_lightning skyvoid_config matches 0..1 run scoreboard players set silverfish_from_lightning skyvoid_config 0
@@ -73,7 +74,6 @@ execute unless score shriekers_from_enderman skyvoid_config matches 0..1 run sco
 execute unless score shulkers_from_lightning skyvoid_config matches 0..1 run scoreboard players set shulkers_from_lightning skyvoid_config 0
 execute unless score sniffer_eggs_from_traders skyvoid_config matches 0..1 run scoreboard players set sniffer_eggs_from_traders skyvoid_config 0
 execute unless score sweet_berries_from_traders skyvoid_config matches 0..1 run scoreboard players set sweet_berries_from_traders skyvoid_config 0
-execute unless score tuff_from_magma skyvoid_config matches 0..1 run scoreboard players set tuff_from_magma skyvoid_config 0
 execute unless score sandstone_mason_trade skyvoid_config matches 0..1 run scoreboard players set sandstone_mason_trade skyvoid_config 0
 
 # additional logic
