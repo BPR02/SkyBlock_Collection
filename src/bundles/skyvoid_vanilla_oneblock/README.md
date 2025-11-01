@@ -7,7 +7,7 @@ Support: [![BMC Badge](https://img.shields.io/badge/_%20-Buy%20Me%20a%20Coffee-b
 ## Vanilla One Block
 This data pack generates a single grass block at the bottom of the world in a Snowy Taiga biome (at Y=-64). The world spawn point will be moved to the location of the grass block at Y=0, so mobs will be able to spawn on the grass block. The locator will fail if there isn't a snowy taiga within 2000 blocks, so some worlds will fail to generate the island.
 
-The worldgen data pack infinitely generates a void world with properties akin to the [original SkyBlock](https://skyblock.net/). This means all structures (that matter) will generate with their bounding boxes, but no blocks. These structures will generate at the same location as if the world with the same seed was generated with normal terrain. The only blocks that generate apart from the starter islands are End portals and sculk sensors.
+The worldgen data pack infinitely generates a void world with properties akin to the [original SkyBlock](https://skyblock.net/). This means all structures (that matter) will generate with their bounding boxes, but no blocks. These structures will generate at the same location as if the world with the same seed was generated with normal terrain. The only blocks that generate apart from the starter islands are End portals and sculk shriekers.
 
 ### Structures
 Structure bounding boxes that are important in SkyBlock will generate at the same coordinates along with some entities as they would in a normal world with the same seed:
