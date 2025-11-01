@@ -7,7 +7,7 @@ Support: [![BMC Badge](https://img.shields.io/badge/_%20-Buy%20Me%20a%20Coffee-b
 ## Standard SkyBlock
 This data pack generates a standard skyblock island at the world spawn point upon initial world load. A nether island is also created. 
 
-The worldgen data pack infinitely generates a void world with properties akin to the [original SkyBlock](https://skyblock.net/). This means all structures (that matter) will generate with their bounding boxes, but no blocks. These structures will generate at the same location as if the world with the same seed was generated with normal terrain. The only blocks that generate apart from the starter islands are End portals and sculk sensors.
+The worldgen data pack infinitely generates a void world with properties akin to the [original SkyBlock](https://skyblock.net/). This means all structures (that matter) will generate with their bounding boxes, but no blocks. These structures will generate at the same location as if the world with the same seed was generated with normal terrain. The only blocks that generate apart from the starter islands are End portals and sculk shriekers.
 
 ### Starter Island
 This island will generate with 54 dirt, 26 grass blocks, 1 bedrock (at world spawn), an oak tree, and a chest with an ice block and bucket of lava. 
