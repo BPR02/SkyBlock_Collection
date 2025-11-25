@@ -10,8 +10,8 @@ from beet.contrib.worldgen import WorldgenBiome, WorldgenNoiseSettings
 
 from .get_empty_biomes import geode_purge
 
-VERSION = os.getenv("VERSION", "1.21.6")
-MAJOR_VERSION = "1_21_6-1_21_8"
+VERSION = os.getenv("VERSION", "1.21.10")
+MAJOR_VERSION = "1_21_9-1_21_10"
 
 
 def terralith(ctx: Context):

@@ -1,7 +1,7 @@
 id: 'skyvoid_advancements'
 name: 'SkyBlock Advancements'
 author: 'EpyonProjects'
-version: 1.0.9
+version: 1.0.10
 
 data_pack:
   load: .

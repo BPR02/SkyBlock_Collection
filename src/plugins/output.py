@@ -4,12 +4,12 @@ import shutil
 from beet import Context
 from bolt import Module
 
-VERSION = os.getenv("VERSION", "1.21.6")
-MAJOR_VERSION = "1_21_6-1_21_8"
-FORMAT = 80
-FORMATS = [80, 81]
-RP_FORMAT = 63
-RP_FORMATS = [63, 64]
+VERSION = os.getenv("VERSION", "1.21.10")
+MAJOR_VERSION = "1_21_9-1_21_10"
+FORMAT = 88
+FORMATS = [88,88]
+RP_FORMAT = 69
+RP_FORMATS = [69,69]
 
 
 def beet_default(ctx: Context):
@@ -17,7 +17,8 @@ def beet_default(ctx: Context):
     out_dir = str(ctx.directory.parent).replace("src", "out")
 
     ctx.data.pack_format = FORMAT
-    ctx.data.supported_formats = FORMATS
+    ctx.data.min_format = (FORMATS[0],0)
+    ctx.data.max_format = (FORMATS[-1],0)
     ctx.data.description = [
         "",
         {"text": f"{ctx.project_name}", "color": "light_purple"},
@@ -45,7 +46,8 @@ def build_rp(ctx: Context):
     """Saves the resourcepack to the ./out folder."""
     out_dir = str(ctx.directory.parent).replace("src", "out")
     ctx.assets.pack_format = RP_FORMAT
-    ctx.assets.supported_formats = RP_FORMATS
+    ctx.assets.min_format = (RP_FORMATS[0],0)
+    ctx.assets.max_format = (RP_FORMATS[-1],0)
     ctx.assets.description = [
         "",
         {"text": f"{ctx.project_name}", "color": "light_purple"},
@@ -73,7 +75,8 @@ def release(ctx: Context):
     out_dir = "build"
 
     ctx.data.pack_format = FORMAT
-    ctx.data.supported_formats = FORMATS
+    ctx.data.min_format = (FORMATS[0],0)
+    ctx.data.max_format = (FORMATS[-1],0)
     ctx.data.description = [
         "",
         {"text": f"{ctx.project_name}", "color": "light_purple"},
@@ -103,7 +106,8 @@ def release_rp(ctx: Context):
     out_dir = "build"
 
     ctx.assets.pack_format = RP_FORMAT
-    ctx.assets.supported_formats = RP_FORMATS
+    ctx.assets.min_format = (RP_FORMATS[0],0)
+    ctx.assets.max_format = (RP_FORMATS[-1],0)
     ctx.assets.description = [
         "",
         {"text": f"{ctx.project_name}", "color": "light_purple"},
@@ -128,7 +132,8 @@ def bundle(ctx: Context):
     out_dir = "build/bundled"
 
     ctx.data.pack_format = FORMAT
-    ctx.data.supported_formats = FORMATS
+    ctx.assets.min_format = (RP_FORMATS[0],0)
+    ctx.assets.max_format = (RP_FORMATS[-1],0)
     ctx.data.description = [
         "",
         {"text": f"{ctx.project_name}", "color": "light_purple"},
