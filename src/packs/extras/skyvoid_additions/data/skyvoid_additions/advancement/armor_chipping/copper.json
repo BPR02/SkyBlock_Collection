@@ -1,0 +1,47 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "skyvoid_additions"
+              },
+              "score": "load.status"
+            },
+            "range": 1
+          },
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "armor_chipping"
+              },
+              "score": "skyvoid_config"
+            },
+            "range": 1
+          }
+        ],
+        "entity": {
+          "equipment": {
+            "chest": {
+              "items": [
+                "minecraft:copper_chestplate"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "skyvoid_additions:mechanics/armor_chipping/hit_mob/copper"
+  }
+}
