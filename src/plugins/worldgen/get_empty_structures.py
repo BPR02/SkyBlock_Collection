@@ -38,7 +38,7 @@ def beet_default(ctx: Context):
         "structure_block",
     ]
     kept_entities: list[str] = ["shulker", "allay"]
-    gen(ctx, target_structures, kept_pieces, kept_blocks, kept_entities, "default")
+    gen(ctx, target_structures, kept_pieces, kept_blocks, kept_entities, f"default_{VERSION}")
 
 
 def empty(ctx: Context):
@@ -61,7 +61,7 @@ def empty(ctx: Context):
     kept_pieces: list[str] = []
     kept_blocks: list[str] = ["air", "cave_air", "void_air", "jigsaw"]
     kept_entities: list[str] = []
-    gen(ctx, target_structures, kept_pieces, kept_blocks, kept_entities, "empty")
+    gen(ctx, target_structures, kept_pieces, kept_blocks, kept_entities, f"empty_{VERSION}")
 
 
 def normal_end(ctx: Context):
@@ -84,7 +84,7 @@ def normal_end(ctx: Context):
     kept_pieces: list[str] = []
     kept_blocks: list[str] = ["air", "cave_air", "void_air", "jigsaw"]
     kept_entities: list[str] = ["allay"]
-    gen(ctx, target_structures, kept_pieces, kept_blocks, kept_entities, "normal_end")
+    gen(ctx, target_structures, kept_pieces, kept_blocks, kept_entities, f"normal_end_{VERSION}")
 
 
 def spawners(ctx: Context):
@@ -114,7 +114,7 @@ def spawners(ctx: Context):
         "spawner",
     ]
     kept_entities: list[str] = ["shulker", "allay"]
-    gen(ctx, target_structures, kept_pieces, kept_blocks, kept_entities, "spawners")
+    gen(ctx, target_structures, kept_pieces, kept_blocks, kept_entities, f"spawners_{VERSION}")
 
 
 def pinu(ctx: Context):
@@ -139,7 +139,7 @@ def pinu(ctx: Context):
     kept_entities: list[str] = [
         # "allay"
     ]
-    gen(ctx, target_structures, kept_pieces, kept_blocks, kept_entities, "pinu")
+    gen(ctx, target_structures, kept_pieces, kept_blocks, kept_entities, f"pinu_{VERSION}")
 
 
 def gen(

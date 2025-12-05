@@ -6,7 +6,6 @@ from beet.contrib.vanilla import Vanilla
 from beet.contrib.worldgen import WorldgenBiome, WorldgenPlacedFeature
 
 VERSION = os.getenv("VERSION", "1.21.10")
-MAJOR_VERSION = "1_21_9-1_21_10"
 NAME = "skyvoid_worldgen"  # name of the module
 DIR = f"worldgen/{NAME}/data"
 TEMP_PATH = f"worldgen/{NAME}/temp_files"
@@ -30,23 +29,23 @@ END_BIOMES = [
 
 
 def beet_default(ctx: Context):
-    gen(ctx, "default")
+    gen(ctx, f"default_{VERSION}")
 
 
 def empty(ctx: Context):
-    gen(ctx, "empty", full_removal=True)
+    gen(ctx, f"empty_{VERSION}", full_removal=True)
 
 
 def normal_end(ctx: Context):
-    gen(ctx, "normal_end", ["end"])
+    gen(ctx, f"normal_end_{VERSION}", ["end"])
 
 
 def structures(ctx: Context):
-    gen(ctx, "structures", remove_structures=False)
+    gen(ctx, f"structures_{VERSION}", remove_structures=False)
 
 
 def spawners(ctx: Context):
-    gen(ctx, "spawners", keep_spawners=True)
+    gen(ctx, f"spawners_{VERSION}", keep_spawners=True)
 
 
 def gen(
