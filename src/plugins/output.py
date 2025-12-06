@@ -4,12 +4,12 @@ import shutil
 from beet import Context
 from bolt import Module
 
-VERSION = os.getenv("VERSION", "1.21.10")
-MAJOR_VERSION = "1_21_9-1_21_10"
+VERSION = os.getenv("VERSION", "1.21.11")
+MAJOR_VERSION = "1_21_11"
 FORMAT = 88.0
-FORMATS = [88.0,88.0]
-RP_FORMAT = 69.0
-RP_FORMATS = [69.0,69.0]
+FORMATS = [94.1,94.1]
+RP_FORMAT = 75.0
+RP_FORMATS = [75.0,75.0]
 
 
 dp_format = int(FORMAT)
