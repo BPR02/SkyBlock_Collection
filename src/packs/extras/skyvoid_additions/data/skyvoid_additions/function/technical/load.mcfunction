@@ -8,7 +8,7 @@ scoreboard objectives add skyvoid_raid_tracker dummy
 scoreboard objectives add mason_trade_rng dummy
 
 function skyvoid_additions:customize/default_values
-execute if score $feedback skyvoid_additions matches 1 run gamerule sendCommandFeedback true
+execute if score $feedback skyvoid_additions matches 1 run gamerule send_command_feedback true
 
 schedule clear skyvoid_additions:mechanics/diamonds_from_coal_blocks/clock
 schedule clear skyvoid_additions:mechanics/sand_from_burnt_husks/clock
