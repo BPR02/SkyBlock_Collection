@@ -45,6 +45,7 @@ execute unless score tuff_from_magma skyvoid_config matches 0..1 run scoreboard 
 execute unless score calcite_from_dead_coral skyvoid_config matches 0..1 run scoreboard players set calcite_from_dead_coral skyvoid_config 1
 execute unless score deepslate_from_tuff skyvoid_config matches 0..1 run scoreboard players set deepslate_from_tuff skyvoid_config 1
 execute unless score sand_from_gravel skyvoid_config matches 0..1 run scoreboard players set sand_from_gravel skyvoid_config 1
+execute unless score armored_nautilus_jockeys skyvoid_config matches 0..1 run scoreboard players set armored_nautilus_jockeys skyvoid_config 1
 
 # off by default
 execute unless score allay_conversion skyvoid_config matches 0..1 run scoreboard players set allay_conversion skyvoid_config 0

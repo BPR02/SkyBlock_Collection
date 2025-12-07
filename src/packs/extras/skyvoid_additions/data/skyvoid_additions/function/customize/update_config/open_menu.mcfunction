@@ -22,6 +22,11 @@ all_settings = [
     "desc": "Hitting a mob wearing a chestplate can break the chestplate and drop one base material (e.g. diamond, netherite ingot, iron ingot)"
   },
   {
+    "id": "armored_nautilus_jockeys",
+    "name": "Armored Nautilus Jockeys",
+    "desc": "Zombie nautilus jockeys with a Drowned passenger can spawn wearing nautilus armor."
+  },
+  {
     "id": "armor_trim_armorer_gift",
     "name": "Armor Trim Gifts",
     "desc": "Armorers will gift armor trims based on the biome"

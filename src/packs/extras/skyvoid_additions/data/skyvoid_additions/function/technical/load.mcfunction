@@ -36,6 +36,7 @@ schedule clear skyvoid_additions:mechanics/sand_from_gravel/clock
 schedule clear skyvoid_additions:mechanics/sandstone_from_packing_sand/clock
 schedule clear skyvoid_additions:mechanics/tuff_from_magma/clock
 schedule clear skyvoid_additions:mechanics/sandstone_mason_trade/clock
+schedule clear skyvoid_additions:mechanics/armored_nautilus_jockeys/clock
 
 # every tick
 execute if score diamonds_from_coal_blocks skyvoid_config matches 1 run schedule function skyvoid_additions:mechanics/diamonds_from_coal_blocks/clock 1t replace
@@ -53,6 +54,7 @@ execute if score sandstone_mason_trade skyvoid_config matches 1 run schedule fun
 execute if score tuff_from_magma skyvoid_config matches 1 run function skyvoid_additions:mechanics/tuff_from_magma/kill_wind_charges_on_launch
 
 # every second
+execute if score armored_nautilus_jockeys skyvoid_config matches 1 run schedule function skyvoid_additions:mechanics/armored_nautilus_jockeys/clock 2t replace
 execute if score allay_conversion skyvoid_config matches 1 run schedule function skyvoid_additions:mechanics/allay_conversion/clock_1s 4t replace
 execute if score sweet_berries_from_foxes skyvoid_config matches 1 run schedule function skyvoid_additions:mechanics/sweet_berries_from_foxes/clock 6t replace
 execute if score netherite_brutes skyvoid_config matches 1 run schedule function skyvoid_additions:mechanics/netherite_piglins/clock 8t replace
