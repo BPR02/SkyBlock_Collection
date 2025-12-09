@@ -134,6 +134,9 @@ Anvil falling on gravel will convert it into sand
 ### Tuff Packs into Deepslate
 Anvil falling on tuff will convert it into deepslate
 
+### Armored Zombie Nautilus Jockeys
+Zombie nautilus jockeys can spawn equipped with nautlius armor
+
 
 ## Extra Mechanics
 The following settings are disabled by default
