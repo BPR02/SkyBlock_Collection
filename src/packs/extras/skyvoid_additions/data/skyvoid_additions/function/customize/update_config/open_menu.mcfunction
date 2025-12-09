@@ -1,6 +1,6 @@
 # open menu
-execute store result score $feedback skyvoid_additions run gamerule sendCommandFeedback
-gamerule sendCommandFeedback false
+execute store result score $feedback skyvoid_additions run gamerule send_command_feedback
+gamerule send_command_feedback false
 function skyvoid_additions:customize/update_config/page_1
 
 
@@ -20,6 +20,11 @@ all_settings = [
     "id": "armor_chipping",
     "name": "Armor Chipping",
     "desc": "Hitting a mob wearing a chestplate can break the chestplate and drop one base material (e.g. diamond, netherite ingot, iron ingot)"
+  },
+  {
+    "id": "armored_nautilus_jockeys",
+    "name": "Armored Nautilus Jockeys",
+    "desc": "Zombie nautilus jockeys with a Drowned passenger can spawn wearing nautilus armor."
   },
   {
     "id": "armor_trim_armorer_gift",

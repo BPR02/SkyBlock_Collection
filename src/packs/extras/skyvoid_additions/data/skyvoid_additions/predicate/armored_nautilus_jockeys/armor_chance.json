@@ -1,0 +1,29 @@
+[
+  {
+    "condition": "minecraft:random_chance",
+    "chance": 0.1
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "passenger": {
+        "type": "minecraft:drowned"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "body": {
+            "count": 1
+          }
+        }
+      }
+    }
+  }
+]

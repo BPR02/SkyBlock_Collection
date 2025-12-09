@@ -4,7 +4,7 @@
 # run from advancement obtain_shovel
 
 execute if score $starter_done skyvoid_vanilla_oneblock matches 1 run return 0
-gamerule doWeatherCycle false
+gamerule advance_weather false
 weather rain
 
 # remove player knockback resistance
