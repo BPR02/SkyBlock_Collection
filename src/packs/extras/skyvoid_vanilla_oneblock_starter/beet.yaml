@@ -1,7 +1,7 @@
 id: 'skyvoid_vanilla_oneblock_starter'
 name: 'Vanilla One Block Starter'
 author: 'BPR'
-version: 1.2.2
+version: 1.2.3
 
 data_pack:
   load: .
