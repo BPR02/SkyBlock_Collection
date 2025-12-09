@@ -5,7 +5,7 @@ from beet import Context, Structure
 from beet.contrib.vanilla import Vanilla
 from nbtlib import *  # type: ignore
 
-VERSION = os.getenv("VERSION", "1.21.11-rc2")
+VERSION = os.getenv("VERSION", "1.21.11")
 NAME = "skyvoid_worldgen"  # name of the module
 DIR = f"worldgen/{NAME}/data"
 TEMP_PATH = f"worldgen/{NAME}/temp_files"
