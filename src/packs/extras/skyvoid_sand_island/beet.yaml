@@ -1,7 +1,7 @@
 id: 'skyvoid_sand_island'
 name: 'Sky Void Sand Island'
 author: 'BPR'
-version: 2.0.2
+version: 2.0.3
 
 data_pack:
   load: .
