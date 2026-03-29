@@ -6,6 +6,10 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:golden_dandelion"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:sea_pickle"
         },
         {
