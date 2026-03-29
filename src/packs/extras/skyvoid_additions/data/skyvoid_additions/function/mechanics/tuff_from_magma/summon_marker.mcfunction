@@ -3,8 +3,8 @@
 # located at @s
 # run from skyvoid_additions:mechanics/tuff_from_magma/clock
 #Summon the marker
-execute as @e[type=breeze_wind_charge] at @s unless entity @e[name="skyvoid_additions_wind_marker",distance=..0.5,limit=1] run summon marker ~ ~ ~ {CustomName:'"skyvoid_additions_wind_marker"',Tags:["skyvoid_additions_wind_marker"]}
-execute as @e[type=wind_charge] at @s unless entity @e[name="skyvoid_additions_wind_marker",distance=..0.5,limit=1] run summon marker ~ ~ ~ {CustomName:'"skyvoid_additions_wind_marker"',Tags:["skyvoid_additions_wind_marker"]}
+execute as @e[type=breeze_wind_charge] at @s unless entity @e[tag=skyvoid_additions_wind_marker,distance=..0.5,limit=1] run summon marker ~ ~ ~ {CustomName:'"skyvoid_additions_wind_marker"',Tags:["skyvoid_additions_wind_marker"]}
+execute as @e[type=wind_charge] at @s unless entity @e[tag=skyvoid_additions_wind_marker,distance=..0.5,limit=1] run summon marker ~ ~ ~ {CustomName:'"skyvoid_additions_wind_marker"',Tags:["skyvoid_additions_wind_marker"]}
 
 #tp the marker to the nearest entity that could have lauched it, to get the entity facing direction
 execute as @e[type=wind_charge] at @s if entity @e[type=player,distance=..2,limit=1] run execute as @n[type=player,limit=1] at @s unless entity @e[tag=skyvoid_additions_wind_marker_rotated,distance=..0.5,limit=1] run tp @n[type=marker,tag=skyvoid_additions_wind_marker,tag=!skyvoid_additions_wind_marker_rotated] ~ ~ ~ ~ ~

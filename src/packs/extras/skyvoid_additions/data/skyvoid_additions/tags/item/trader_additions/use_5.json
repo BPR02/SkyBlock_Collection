@@ -8,6 +8,7 @@
     "minecraft:sea_pickle",
     "minecraft:slime_ball",
     "minecraft:nautilus_shell",
-    "minecraft:pale_moss_block"
+    "minecraft:pale_moss_block",
+    "minecraft:name_tag"
   ]
 }

@@ -1,0 +1,588 @@
+{
+	// Place your Shattered SMP workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+        // Completions for commands syntax
+    "advancement": {
+        "prefix": "advancement",
+        "scope": "mcfunction,json",
+        "body": "advancement ${1|grant,revoke|} ${2:<target>} ${3|everything,only,from,through,until|} ${4:<advancement>} ${5:<criterion>}"
+    },
+    "attribute": {
+        "prefix": "attribute",
+        "scope": "mcfunction,json",
+        "body": "attribute ${1:<target>} ${2:<attribute>} ${3|get,base,modifier|} ${4|get,set,reset,add,remove,value get|} ${5:<id|value>} ${6|add_value,add_multiplied_base,add_multiplied_total|} ${7:<scale>}"
+    },
+    "bossbar": {
+        "prefix": "bossbar",
+        "scope": "mcfunction,json",
+        "body": "bossbar ${1|add,get,list,remove,set|} ${2:<id>} ${6|max,players,value,visible,color,style,name|} ${8:<value>}"
+    },
+    "clear": {
+        "prefix": "clear",
+        "scope": "mcfunction,json",
+        "body": "clear ${1:<targets>} ${2:<item>} ${3:<maxCount>}"
+    },
+    "clone": {
+        "prefix": "clone",
+        "scope": "mcfunction,json",
+        "body": "clone ${1|from |}${2:<sourceDimension>} ${3:<begin>} ${4:<end>} ${5|to |}${6:<targetDimension>} ${7:<destination>}${8|replace, masked, filtered|} ${9:<filter>} ${10|force,move,normal|}"
+    },
+    "damage": {
+        "prefix": "damage",
+        "scope": "mcfunction,json",
+        "body": "damage ${1:<target>} ${2:<amount>} ${3:<damageType>} ${4|at,by|} ${5:<location|entity>} ${8|from|} ${7:<cause>}"
+    },
+    "function": {
+        "prefix": "function",
+        "scope": "mcfunction,json",
+        "body": "function ${1}"
+    },
+    "data": {
+        "prefix": "data",
+        "scope": "mcfunction,json",
+        "body": "data ${1|get,merge,modify,remove|} ${2|block,entity,storage|} ${3:<target>} ${4:<path>} ${5|append,insert,merge,prepend,set|} ${6:<index>} ${7|from,string,value|} ${8|block,entity,storage|} ${9:<source>} ${10:sourcePath} ${11:start} ${12:end} ${13:nbt|value|scale}"
+    },
+    "datapack": {
+        "prefix": "datapack",
+        "scope": "mcfunction,json",
+        "body": "datapack ${1|enable,disable,list,create|} ${2:<name|id>} ${3|first,last,before,after,available,enabled|} ${4:<existing|description>}"
+    },
+    "dialog": {
+        "prefix": "dialog",
+        "scope": "mcfunction,json",
+        "body": "dialog ${1|show,clear|} ${2:<targets>} ${3:<dialog>}"
+    },
+    "difficulty": {
+        "prefix": "difficulty",
+        "scope": "mcfunction,json",
+        "body": "difficulty ${1|peaceful,easy,normal,hard|}"
+    },
+    "defaultgamemode": {
+        "prefix": "defaultgamemode",
+        "scope": "mcfunction,json",
+        "body": "defaultgamemode ${1|survival,creative,adventure,spectator|}"
+    },
+    "gamemode": {
+        "prefix": "gamemode",
+        "scope": "mcfunction,json",
+        "body": "gamemode ${1|survival,creative,adventure,spectator|}"
+    },
+    "effect": {
+        "prefix": "effect",
+        "scope": "mcfunction,json",
+        "body": "effect ${1|clear,give|} ${2:<targets>} ${3:<effect>} ${4|infinite|seconds|} ${5:<amplifier>} ${6|true,false|}"
+    },
+    "enchant": {
+        "prefix": "enchant",
+        "scope": "mcfunction,json",
+        "body": "enchant ${1:<targets>} ${2:<enchantment>} ${3:<level>}"
+    },
+    "execute": {
+        "prefix": "execute",
+        "scope": "mcfunction,json",
+        "body": "execute ${1:<body>} ${2|run|} ${3:<command>}"
+    },
+    "execute align": {
+        "prefix": "align",
+        "scope": "mcfunction,json",
+        "body": "align ${1|x|}${2|y|}${3|z|}"
+    },
+    "execute anchored": {
+        "prefix": "anchored",
+        "scope": "mcfunction,json",
+        "body": "anchored ${1|eyes,feet|}"
+    },
+    "execute as": {
+        "prefix": "as",
+        "scope": "mcfunction,json",
+        "body": "as ${1:<target>}"
+    },
+    "execute at": {
+        "prefix": "at",
+        "scope": "mcfunction,json",
+        "body": "at ${1:<target>}"
+    },
+    "execute facing": {
+        "prefix": "facing",
+        "scope": "mcfunction,json",
+        "body": "facing ${1:<pos>}${2:<|entity|>} ${3:<targets>} ${4|eyes,feet|}"
+    },
+    "execute in": {
+        "prefix": "in",
+        "scope": "mcfunction,json",
+        "body": "in ${1:<dimension>}"
+    },
+    "execute on": {
+        "prefix": "on",
+        "scope": "mcfunction,json",
+        "body": "on ${1|attacker,controller,leasher,origin,owner,passengers,target,vehichle|}"
+    },
+    "execute positioned": {
+        "prefix": "positioned",
+        "scope": "mcfunction,json",
+        "body": "positioned ${1|as,over|}${2:<pos>} ${3:<targets>} ${4|world_surface,motion_blocking,motion_blocking_no_leaves,ocean_floor|}"
+    },
+    "execute rotated": {
+        "prefix": "rotated",
+        "scope": "mcfunction,json",
+        "body": "rotated ${1|as|}${2:<rot>} ${3:<targets>}"
+    },
+    "summon": {
+        "prefix": "summon",
+        "scope": "mcfunction,json",
+        "body": "summon ${1:<entity>}"
+    },
+    "execute if biome": {
+        "prefix": "if biome",
+        "scope": "mcfunction,json",
+        "body": "if biome ${1:<pos>} ${2:<biome>}"
+    },
+    "execute if block": {
+        "prefix": "if block",
+        "scope": "mcfunction,json",
+        "body": "if block ${1:<pos>} ${2:<block>}"
+    },
+    "execute if blocks": {
+        "prefix": "if blocks",
+        "scope": "mcfunction,json",
+        "body": "if blocks ${1:<start>} ${2:<end>} ${3:<destination>} ${4|all,masked|}"
+    },
+    "execute if data": {
+        "prefix": "if data",
+        "scope": "mcfunction,json",
+        "body": "if data ${1|block,entity;storage|} ${2:<pos|target|source>} ${3:<path>}"
+    },
+    "execute if dimension": {
+        "prefix": "if dimension",
+        "scope": "mcfunction,json",
+        "body": "if dimension ${1:<dimension>}"
+    },
+    "execute if entity": {
+        "prefix": "if entity",
+        "scope": "mcfunction,json",
+        "body": "if entity ${1:<entities>}"
+    },
+    "execute if function": {
+        "prefix": "if function",
+        "scope": "mcfunction,json",
+        "body": "if function ${1:<path>}"
+    },
+    "execute if items": {
+        "prefix": "if items",
+        "scope": "mcfunction,json",
+        "body": "if items ${1|block,entity|} ${2:<source>} ${3|armor.,container.,contents,enderchest.,horse.,hotbar.,inventory.,player.crafting.,player.cursor,saddle,villager.,weapon.|}${4:<slot_number>} ${5:<item>}"
+    },
+    "execute if loaded": {
+        "prefix": "if loaded",
+        "scope": "mcfunction,json",
+        "body": "if loaded ${1:<loaded>}"
+    },
+    "execute if predicate": {
+        "prefix": "if predicate",
+        "scope": "mcfunction,json",
+        "body": "if predicate ${1:<predicate>}"
+    },
+    "execute if score": {
+        "prefix": "if score",
+        "scope": "mcfunction,json",
+        "body": "if score ${1:<target>} ${2:<objective>} ${3|matches,<,<=,=,=>,>|} ${4:<range|source>} ${5:<objective>}"
+    },
+    "execute store block": {
+        "prefix": "store block",
+        "scope": "mcfunction,json",
+        "body": "store ${1|result,success|} block ${3:<pos>} ${4:<path>} ${5|byte,int,short,long,float,double|} ${6:<scale>}"
+    },
+    "execute store entity": {
+        "prefix": "store entity",
+        "scope": "mcfunction,json",
+        "body": "store ${1|result,success|} entity ${3:<target>} ${4:<path>} ${5|byte,int,short,long,float,double|} ${6:<scale>}"
+    },
+    "execute store storage": {
+        "prefix": "store storage",
+        "scope": "mcfunction,json",
+        "body": "store ${1|result,success|} storage ${3:<target>} ${4:<path>} ${5|byte,int,short,long,float,double|} ${6:<scale>}"
+    },
+    "execute store bossbar": {
+        "prefix": "store bossbar",
+        "scope": "mcfunction,json",
+        "body": "store ${1|result,success|} bossbar ${3:<id>} ${5|value,max|}"
+    },
+    "execute store score": {
+        "prefix": "store score",
+        "scope": "mcfunction,json",
+        "body": "store ${1|result,success|} score ${3:<targets>} ${4:<objective>}"
+    },
+    "xp": {
+        "prefix": ["xp","experience"],
+        "scope": "mcfunction,json",
+        "body": "xp ${2|add,set,query|} ${3:<targets>} ${4:<amount>} ${5|levels,points|}"
+    },
+    "fetchprofile": {
+        "prefix": "fetchprofile",
+        "scope": "mcfunction,json",
+        "body": "fetchprofile ${1|id,name|} ${2:<id|name>}"
+    },
+    "fill": {
+        "prefix": "fill",
+        "scope": "mcfunction,json",
+        "body": "fill ${1:<from>} ${2:<to>} ${3:<block>} ${4|replace,outline,hollow,destroy,strict,keep|} ${5:<filter>} ${6|outline,hollow,destroy,strict|}"
+    },
+    "fillbiome": {
+        "prefix": "fillbiome",
+        "scope": "mcfunction,json",
+        "body": "fillbiome ${1:<from>} ${2:<to>} ${3:<biome>}${4| replace |}${5:<filter>}"
+    },
+    "forceload": {
+        "prefix": "forceload",
+        "scope": "mcfunction,json",
+        "body": "forceload ${1|add,remove,remove all,query|} ${3:<from>} ${4:<to>} ${5:<pos>}"
+    },
+    "gamerule": {
+        "prefix": "gamerule",
+        "scope": "mcfunction,json",
+        "body": "gamerule ${1|advance_time,dodaylightcycle,advance_weather,doweathercycle,allow_entering_nether_using_portals,block_drops,dotiledrops,block_explosion_drop_decay,command_block_output,command_blocks_work,drowning_damage,drowningdamage,elytra_movement_check,ender_pearls_vanish_on_death,entity_drops,doentitydrops,fall_damage,falldamage,fire_damage,firedamage,fire_spread_radius_around_player,forgive_dead_players,freeze_damage,freezedamage,functioncommandlimit,global_sound_events,immediate_respawn,keep_inventory,keepinventory,lava_source_conversion,limited_crafting,dolimitedcrafting,locator_bar,locatorbar,log_admin_commands,max_block_modifications,max_command_forks,max_command_sequence_length,maxcommandchainlength,max_entity_cramming,max_minecart_speed,max_snow_accumulation_height,mob_drops,domobloot,mob_explosion_drop_decay,mob_griefing,mobgriefing,natural_health_regeneration,naturalregeneration,player_movement_check,players_nether_portal_creative_delay,players_nether_portal_default_delay,players_sleeping_percentage,playerssleepingpercentage,projectiles_can_break_blocks,projectilescanbreakblocks,pvp,raids,random_tick_speed,recipesunlock,reduced_debug_info,respawnblocksexplode,respawn_radius,spawnradius,send_command_feedback,sendcommandfeedback,show_advancement_messages,showbordereffect,showcoordinates,showdaysplayed,show_death_messages,showdeathmessages,showrecipemessages,showtags,spawner_blocks_work,spawn_mobs,domobspawning,spawn_monsters,spawn_patrols,spawn_phantoms,doinsomnia,spawn_wandering_traders,spawn_wardens,spectators_generate_chunks,spread_vines,tnt_explodes,tntexplodes,tnt_explosion_drop_decay,tntexplosiondropdecay,universal_anger,water_source_conversion|} ${2:<value>}"
+    },
+    "give": {
+        "prefix": "give",
+        "scope": "mcfunction,json",
+        "body": "give ${1:<targets>} ${2:<item>} ${3:<count>}"
+    },
+    "item": {
+        "prefix": "item",
+        "scope": "mcfunction,json",
+        "body": "item ${1|modify,replace|} ${2|block,entity|} ${3:<target>} ${4:<slot>} ${5|with,from|} ${6:<itemOrSource>} ${7:<sourceSlot>} ${8:<modifier>} ${9:<count>}"
+    },
+    "kill": {
+        "prefix": "kill",
+        "scope": "mcfunction,json",
+        "body": "kill ${1:<targets>}"
+    },
+    "locate": {
+        "prefix": "locate",
+        "scope": "mcfunction,json",
+        "body": "locate ${1|structure,biome,poi|} ${2:<name>}"
+    },
+    "loot": {
+        "prefix": "loot",
+        "scope": "mcfunction,json",
+        "body": "loot ${1|give,insert,spawn,replace|} ${2|block,entity,players|} ${3:<target>} ${4:<slot>} ${5:<count>} ${6|fish,loot,kill,mine|} ${7:<source>} ${8:<pos>} ${9|mainhand,offhand|} ${10:tool}"
+    },
+    "particle": {
+        "prefix": "particle",
+        "scope": "mcfunction,json",
+        "body": "particle ${1:<name>} ${2:<pos>} ${3:<delta>} ${4:<speed>} ${5:<count>} ${6|force,normal|} ${7:<viewers>}"
+    },
+    "place": {
+        "prefix": "place",
+        "scope": "mcfunction,json",
+        "body": "place ${1|feature,jigsaw,structure,template|} ${2:<primary>} ${3:<secondary>} ${4:<max_depth>} ${5:<pos>} ${6|none,clockwise_90,clockwise_180,counterclockwise_90|} ${7|none,left_right,front_back|} ${8:<integrity>} ${9:<seed>} ${10|strict|}"
+    },
+    "playsound": {
+        "prefix": "playsound",
+        "scope": "mcfunction,json",
+        "body": "playsound ${1:<sound>} ${2|master,music,record,weather,block,hostile,player,ambient,voice,ui|} ${3:<targets>} ${4:<pos>} ${5:<volume>} ${6:<pitch>}"
+    },
+    "random": {
+        "prefix": "random",
+        "scope": "mcfunction,json",
+        "body": "random ${1|value,roll|} ${2:<range>} ${3:<sequence>}"
+    },
+    "random reset": {
+        "prefix": "random reset",
+        "scope": "mcfunction,json",
+        "body": "random reset ${1|*|} ${2:<sequence>} ${3:<seed>} ${4|true,false|} ${5|true,false|}"
+    },
+    "return": {
+        "prefix": "return",
+        "body": "return ${1|fail,run|} ${2:<value|command>}",
+        "scope": "mcfunction,json",
+    },
+    "ride": {
+        "prefix": "ride",
+        "scope": "mcfunction,json",
+        "body": "ride ${1:<target>} ${2|mount,dismount|} ${3:<vehichle>}"
+    },
+    "rotate": {
+        "prefix": "rotate",
+        "scope": "mcfunction,json",
+        "body": "rotate ${1:<target>} ${2:<rotation|facing>} ${3|entity|} ${4:<facingTarget>} ${5|eyes,feet|}"
+    },
+    "schedule": {
+        "prefix": "schedule",
+        "scope": "mcfunction,json",
+        "body": "schedule ${1|function,clear|} ${2:<function>} ${3:<time>} ${4|replace,append|}"
+    },
+    "scoreboard objectives add": {
+        "prefix": "scoreboard objectives add",
+        "scope": "mcfunction,json",
+        "body": "scoreboard objectives add ${1:<objective>} ${2:<criteria>} ${3:<displayName>}"
+    },
+    "scoreboard objectives remove": {
+        "prefix": "scoreboard objectives remove",
+        "scope": "mcfunction,json",
+        "body": "scoreboard objectives remove ${1:<objective>}"
+    },
+    "scoreboard objectives setdisplay": {
+        "prefix": "scoreboard objectives setdisplay",
+        "scope": "mcfunction,json",
+        "body": "scoreboard objectives setdisplay ${1:<slot>} ${2:<objective>}"
+    },
+    "scoreboard objectives modify": {
+        "prefix": "scoreboard objectives modify",
+        "scope": "mcfunction,json",
+        "body": "scoreboard objectives modify ${1:<objective>} ${2|displayautoupdate,displayname,numberformat,rendertype|} ${3|blank,fixed,styled,hearts,integer|} ${4:<value>}"
+    },
+    "scoreboard players list": {
+        "prefix": "scoreboard players list",
+        "scope": "mcfunction,json",
+        "body": "scoreboard players list ${1:<target>}"
+    },
+    "scoreboard players get": {
+        "prefix": "scoreboard players get",
+        "scope": "mcfunction,json",
+        "body": "scoreboard players get ${1:<target>} ${2:<objective>}"
+    },
+    "scoreboard players": {
+        "prefix": "scoreboard players set",
+        "scope": "mcfunction,json",
+        "body": "scoreboard players ${1|set,add,remove|} ${2:<targets>} ${3:<objective>} ${4:<score>}"
+    },
+    "scoreboard players reset": {
+        "prefix": "scoreboard players reset",
+        "scope": "mcfunction,json",
+        "body": "scoreboard players reset ${1:<targets>} ${2:<objective>}"
+    },
+    "scoreboard players enable": {
+        "prefix": "scoreboard players enable",
+        "scope": "mcfunction,json",
+        "body": "scoreboard players enable ${1:<targets>} ${2:<objective>}"
+    },
+    "scoreboard players operation": {
+        "prefix": "scoreboard players operation",
+        "scope": "mcfunction,json",
+        "body": "scoreboard players operation ${1:<targets>} ${2:<targetObjective>} ${3|=,+=,-=,*=,/=,%=,><,<,>|} ${4:<source>} ${5:<sourceObjective>}"
+    },
+    "scoreboard players display name": {
+        "prefix": "scoreboard players display name",
+        "scope": "mcfunction,json",
+        "body": "scoreboard players display name ${1:<targets>} ${2:<objective>} ${3:<text>}"
+    },
+    "scoreboard players display numberformat": {
+        "prefix": "scoreboard players display numberformat",
+        "scope": "mcfunction,json",
+        "body": "scoreboard players display numberformat ${1:<targets>} ${2:<objective>} ${3|blank,fixed,styled|} ${4:<value>}"
+    },
+    "setblock": {
+        "prefix": "setblock",
+        "scope": "mcfunction,json",
+        "body": "setblock ${1:<pos>} ${2:<block>} ${3|destroy,keep,replace,strict|}"
+    },
+    "setworldspawn": {
+        "prefix": "setworldspawn",
+        "scope": "mcfunction,json",
+        "body": "setworldspawn ${1:<pos>} ${2:<angle>}"
+    },
+    "spawnpoint": {
+        "prefix": "spawnpoint",
+        "scope": "mcfunction,json",
+        "body": "spawnpoint ${1:<targets>} ${2:<pos>} ${3:<angle>}"
+    },
+    "spectate":{
+        "prefix": "spectate",
+        "scope": "mcfunction,json",
+        "body": "spectate ${1:<target>} ${2:<player>}"
+    },
+    "spreadplayers": {
+        "prefix": "spreadplayers",
+        "scope": "mcfunction,json",
+        "body": "spreadplayers ${1:<center>} ${2:<spreadDistance>} ${3:<maxRange>} ${4|under|} ${5:<maxHeight>} ${6|true,false|} ${7:<targets>}"
+    },
+    "stopsound": {
+        "prefix": "stopsound",
+        "scope": "mcfunction,json",
+        "body": "stopsound ${1:<targets>} ${2:<source>} ${3:<sounds>}"
+    },
+    "swing": {
+        "prefix": "swing",
+        "scope": "mcfunction,json",
+        "body": "swing ${1:<targets>} ${2|mainhand,offhand|}"
+    },
+    "tag": {
+        "prefix": "tag",
+        "scope": "mcfunction,json",
+        "body": "tag ${1:<targets>} ${2|add,remove,list|} ${3:<name>}"
+    },
+    "team": {
+        "prefix": "team",
+        "scope": "mcfunction,json",
+        "body": "team ${1|list,add,remove,empty,join,leave,modify|} ${2:<team>} ${3:<option_or_members>} ${4:<value>}"
+    },
+    "tp": {
+        "prefix": ["teleport","tp"],
+        "scope": "mcfunction,json",
+        "body": "tp ${1:<targets>} ${2:<destination_or_location>} ${3:<rotation>} ${4|facing|} ${5:<facingTarget>} ${6|eyes,feet|}"
+    },
+    "tellraw": {
+        "prefix": "tellraw",
+        "scope": "mcfunction,json",
+        "body": "tellraw ${1:<targets>} ${2:<json_text>}"
+    },
+    "test clear": {
+        "prefix": "test clear",
+        "scope": "mcfunction,json",
+        "body": "test ${1|clearall,clearthat,clearthese|} ${2:<radius>}"
+    },
+    "test create": {
+        "prefix": "test create",
+        "scope": "mcfunction,json",
+        "body": "test create ${1:<id>} ${2:<width>} ${3:<height>} ${4:<depth>}"
+    },
+    "test locate": {
+        "prefix": "test locate",
+        "scope": "mcfunction,json",
+        "body": "test locate ${1:<tests>}"
+    },
+    "test pos": {
+        "prefix": "test pos",
+        "scope": "mcfunction,json",
+        "body": "test pos ${1:<var>}"
+    },
+    "test reset": {
+        "prefix": "test reset",
+        "scope": "mcfunction,json",
+        "body": "test ${1|resetclosest,resetthat,resetthese|}"
+    },
+    "test run": {
+        "prefix": "test run",
+        "scope": "mcfunction,json",
+        "body": "test ${1|run,runclosest,runthat,runthese|} ${2:<tests>} ${3:<numberOfTimes>} ${4|true,false|} ${5:<rotationSteps>} ${6:<testsPerRow>}"
+    },
+    "test runmultiple": {
+        "prefix": "test runmultiple",
+        "scope": "mcfunction,json",
+        "body": "test runmultiple ${1:<tests>} ${2:<amount>}"
+    },
+    "test runfailed": {
+        "prefix": "test runfailed",
+        "scope": "mcfunction,json",
+        "body": "test runfailed ${1|onlyRequiredTests|} ${2:<numberOfTimes>} ${3|true,false|}"
+    },
+    "test stop": {
+        "prefix": "test stop",
+        "scope": "mcfunction,json",
+        "body": "test stop"
+    },
+    "test verify": {
+        "prefix": "test verify",
+        "scope": "mcfunction,json",
+        "body": "test verify ${1:<tests>}"
+    },
+    "test export": {
+        "prefix": "test export",
+        "scope": "mcfunction,json",
+        "body": "test ${1|export,exportclosest,exportthat,exportthese|} ${2:<test>}"
+    },
+    "tick": {
+        "prefix": "tick",
+        "scope": "mcfunction,json",
+        "body": "tick ${1|query,rate,freeze,unfreeze,step,sprint|} ${2:<time_or_rate>} ${3|stop|}"
+    },
+    "title": {
+        "prefix": "title",
+        "scope": "mcfunction,json",
+        "body": "title ${1:<targets>} ${2|clear,reset,title,subtitle,actionbar,times|} ${3:<title>} ${4:<fadeIn>} ${5:<stay>} ${6:<fadeOut>}"
+    },
+    "transfer": {
+        "prefix": "transfer",
+        "scope": "mcfunction,json",
+        "body": "transfer ${1:<hostname>} ${2:<port>} ${3:<players>}"
+    },
+    "trigger": {
+        "prefix": "trigger",
+        "scope": "mcfunction,json",
+        "body": "trigger ${1:<objective>} ${2|,add,set|} ${3:<value>}"
+    },
+    "waypoint": {
+        "prefix": "waypoint",
+        "scope": "mcfunction,json",
+        "body": "waypoint ${1|list,modify|} ${2:<waypoint>} ${3|color,style|} ${4|reset,set,hex|} ${5:<value>}"
+    },
+    "weather": {
+        "prefix": "weather",
+        "scope": "mcfunction,json",
+        "body": "weather ${1|clear,rain,thunder|} ${2:<duration>}"
+    },
+    "worldborder": {
+        "prefix": "worldborder",
+        "scope": "mcfunction,json",
+        "body": "worldborder ${1|add,center,damage,get,set,warning|} ${2|amount,buffer,distance,time|} ${3:<distance>} ${4:<time>} ${5:<pos>} ${6:<damagePerBlock>}"
+    },
+    
+
+    // Completions for entity selectors
+    "@s": {
+        "prefix": "@s",
+        "body": "@s",
+        "scope": "mcfunction,json"
+    },
+    "@e": {
+        "prefix": "@e",
+        "body": "@e",
+        "scope": "mcfunction,json"
+    },
+    "@a": {
+        "prefix": "@a",
+        "body": "@a",
+        "scope": "mcfunction,json"
+    },
+    "@p": {
+        "prefix": "@p",
+        "body": "@p",
+        "scope": "mcfunction,json"
+    },
+    "@n": {
+        "prefix": "@n",
+        "body": "@n",
+        "scope": "mcfunction,json"
+    },
+    "@r": {
+        "prefix": "@r",
+        "body": "@r",
+        "scope": "mcfunction,json"
+    },
+
+    // Positional indicators
+    "~ ~ ~": {
+        "prefix": "~ ~ ~",
+        "body": "~ ~ ~",
+        "scope": "mcfunction,json"
+    },
+    "^ ^ ^": {
+        "prefix": "^ ^ ^",
+        "body": "^ ^ ^",
+        "scope": "mcfunction,json"
+    },
+
+    // The current file name as a resourcepath (useful for function recursion)
+    "THIS": {
+        "prefix": ">> THIS",
+        "body": "${RELATIVE_FILEPATH/(?:(?:.+\\\\)??data\\\\(.*?)\\\\(?:worldgen\\\\)?(?:tags\\\\)?(?:.*?)\\\\)|(?:(.*?)\\\\)|(?:(.*?)\\..*)/${1}${1:+:}${2}${2:+/}${3}/gm}",
+        "description": "the current file name",
+        "scope": "mcfunction,json"
+    }
+}

@@ -372,6 +372,10 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:name_tag"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:sweet_berries",
           "conditions": [
             {
