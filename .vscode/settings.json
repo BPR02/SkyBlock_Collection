@@ -1,4 +1,5 @@
 {
   "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true
+  "files.trimFinalNewlines": true,
+  "workbench.iconTheme": "mc-dp-icons"
 }
