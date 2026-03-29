@@ -1,34 +1,25 @@
 {
-  "type": "minecraft:random_patch",
+  "type": "minecraft:simple_block",
   "config": {
-    "tries": 6,
-    "xz_spread": 2,
-    "y_spread": 1,
-    "feature": {
-      "feature": {
-        "type": "minecraft:simple_block",
-        "config": {
-          "to_place": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-              "Name": "minecraft:sculk_shrieker",
-              "Properties": {
-                "can_summon": "true",
-                "shrieking": "false",
-                "waterlogged": "false"
-              }
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:sculk_shrieker",
+            "Properties": {
+              "can_summon": "true",
+              "shrieking": "false",
+              "waterlogged": "false"
             }
           }
-        }
-      },
-      "placement": [
-        {
-          "type": "minecraft:count",
-          "count": 3
         },
         {
-          "type": "minecraft:rarity_filter",
-          "chance": 90
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:air"
+          }
         }
       ]
     }
