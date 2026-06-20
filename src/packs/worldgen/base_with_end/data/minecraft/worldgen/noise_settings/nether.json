@@ -1,5 +1,5 @@
 {
-  "sea_level": 48,
+  "sea_level": 32,
   "disable_mob_generation": false,
   "aquifers_enabled": false,
   "ore_veins_enabled": false,
@@ -29,21 +29,21 @@
     "lava": 0,
     "temperature": {
       "type": "minecraft:shifted_noise",
-      "noise": "minecraft:temperature",
+      "noise": "minecraft:nether/temperature",
+      "shift_x": 0.0,
+      "shift_y": 0.0,
+      "shift_z": 0.0,
       "xz_scale": 0.25,
-      "y_scale": 0,
-      "shift_x": "minecraft:shift_x",
-      "shift_y": 0,
-      "shift_z": "minecraft:shift_z"
+      "y_scale": 0.0
     },
     "vegetation": {
       "type": "minecraft:shifted_noise",
-      "noise": "minecraft:vegetation",
+      "noise": "minecraft:nether/vegetation",
+      "shift_x": 0.0,
+      "shift_y": 0.0,
+      "shift_z": 0.0,
       "xz_scale": 0.25,
-      "y_scale": 0,
-      "shift_x": "minecraft:shift_x",
-      "shift_y": 0,
-      "shift_z": "minecraft:shift_z"
+      "y_scale": 0.0
     },
     "continents": 0,
     "erosion": 0,
@@ -66,10 +66,10 @@
                 "type": "minecraft:mul",
                 "argument1": {
                   "type": "minecraft:y_clamped_gradient",
+                  "from_value": 0.0,
                   "from_y": -8,
-                  "to_y": 24,
-                  "from_value": 0,
-                  "to_value": 1
+                  "to_value": 1.0,
+                  "to_y": 24
                 },
                 "argument2": {
                   "type": "minecraft:add",
@@ -81,10 +81,10 @@
                       "type": "minecraft:mul",
                       "argument1": {
                         "type": "minecraft:y_clamped_gradient",
+                        "from_value": 1.0,
                         "from_y": 104,
-                        "to_y": 128,
-                        "from_value": 1,
-                        "to_value": 0
+                        "to_value": 0.0,
+                        "to_y": 128
                       },
                       "argument2": {
                         "type": "minecraft:add",
