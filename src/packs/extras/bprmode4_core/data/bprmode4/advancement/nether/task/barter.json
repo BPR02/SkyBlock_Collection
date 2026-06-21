@@ -31,7 +31,7 @@
       "conditions": {
         "player": [],
         "entity": {
-          "entity_type": "minecraft:piglin",
+          "type": "minecraft:piglin",
           "flags": {
             "is_baby": false
           }
