@@ -41,7 +41,7 @@
           }
         ],
         "entity": {
-          "type": "minecraft:breeze",
+          "entity_type": "minecraft:breeze",
           "stepping_on": {
             "structures": "minecraft:trial_chambers",
             "block": {
@@ -92,7 +92,7 @@
           }
         ],
         "entity": {
-          "type": "minecraft:zombie",
+          "entity_type": "minecraft:zombie",
           "stepping_on": {
             "structures": "minecraft:trial_chambers",
             "block": {
@@ -143,7 +143,7 @@
           }
         ],
         "entity": {
-          "type": "minecraft:husk",
+          "entity_type": "minecraft:husk",
           "stepping_on": {
             "structures": "minecraft:trial_chambers",
             "block": {
@@ -194,7 +194,7 @@
           }
         ],
         "entity": {
-          "type": "minecraft:spider",
+          "entity_type": "minecraft:spider",
           "stepping_on": {
             "structures": "minecraft:trial_chambers",
             "block": {
@@ -245,7 +245,7 @@
           }
         ],
         "entity": {
-          "type": "minecraft:slime",
+          "entity_type": "minecraft:slime",
           "stepping_on": {
             "structures": "minecraft:trial_chambers",
             "block": {
@@ -296,7 +296,7 @@
           }
         ],
         "entity": {
-          "type": "minecraft:silverfish",
+          "entity_type": "minecraft:silverfish",
           "stepping_on": {
             "structures": "minecraft:trial_chambers",
             "block": {
@@ -347,7 +347,7 @@
           }
         ],
         "entity": {
-          "type": "minecraft:zombie",
+          "entity_type": "minecraft:zombie",
           "flags": {
             "is_baby": true
           }
@@ -395,7 +395,7 @@
           }
         ],
         "entity": {
-          "type": "minecraft:cave_spider",
+          "entity_type": "minecraft:cave_spider",
           "stepping_on": {
             "structures": "minecraft:trial_chambers",
             "block": {
@@ -446,7 +446,7 @@
           }
         ],
         "entity": {
-          "type": "minecraft:stray",
+          "entity_type": "minecraft:stray",
           "stepping_on": {
             "structures": "minecraft:trial_chambers",
             "block": {
@@ -497,7 +497,7 @@
           }
         ],
         "entity": {
-          "type": "minecraft:skeleton",
+          "entity_type": "minecraft:skeleton",
           "stepping_on": {
             "structures": "minecraft:trial_chambers",
             "block": {
@@ -548,7 +548,7 @@
           }
         ],
         "entity": {
-          "type": "minecraft:bogged",
+          "entity_type": "minecraft:bogged",
           "stepping_on": {
             "structures": "minecraft:trial_chambers",
             "block": {

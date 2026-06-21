@@ -10,8 +10,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type_specific": {
-                  "type": "player",
+                "type_specific/player": {
                   "advancements": {
                     "skyvoid_advancements:overworld/obsidian": true,
                     "skyvoid_advancements:overworld/cobble_gen": true
