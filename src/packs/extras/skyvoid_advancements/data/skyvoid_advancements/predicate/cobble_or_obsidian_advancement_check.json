@@ -11,7 +11,7 @@
             "targeted_entity": {
               "type_specific/player": {
                 "advancements": {
-                  "skyvoid_advancements:overworld/obsidian": 1
+                  "skyvoid_advancements:overworld/obsidian": true
                 }
               }
             }
@@ -24,7 +24,7 @@
             "targeted_entity": {
               "type_specific/player": {
                 "advancements": {
-                  "skyvoid_advancements:overworld/cobble_gen": 1
+                  "skyvoid_advancements:overworld/cobble_gen": true
                 }
               }
             }
