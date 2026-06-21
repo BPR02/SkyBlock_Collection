@@ -9,10 +9,9 @@
           "entity": "this",
           "predicate": {
             "targeted_entity": {
-              "type_specific": {
-                "type": "player",
+              "type_specific/player": {
                 "advancements": {
-                  "skyvoid_advancements:overworld/obsidian": true
+                  "skyvoid_advancements:overworld/obsidian": 1
                 }
               }
             }
@@ -23,10 +22,9 @@
           "entity": "this",
           "predicate": {
             "targeted_entity": {
-              "type_specific": {
-                "type": "player",
+              "type_specific/player": {
                 "advancements": {
-                  "skyvoid_advancements:overworld/cobble_gen": true
+                  "skyvoid_advancements:overworld/cobble_gen": 1
                 }
               }
             }

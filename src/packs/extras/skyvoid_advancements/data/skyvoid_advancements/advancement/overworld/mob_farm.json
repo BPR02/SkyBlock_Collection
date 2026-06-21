@@ -30,42 +30,42 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type": "minecraft:creeper"
+                  "entity_type": "minecraft:creeper"
                 }
               },
               {
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type": "minecraft:enderman"
+                  "entity_type": "minecraft:enderman"
                 }
               },
               {
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type": "minecraft:skeleton"
+                  "entity_type": "minecraft:skeleton"
                 }
               },
               {
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type": "minecraft:spider"
+                  "entity_type": "minecraft:spider"
                 }
               },
               {
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type": "minecraft:witch"
+                  "entity_type": "minecraft:witch"
                 }
               },
               {
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type": "minecraft:zombie"
+                  "entity_type": "minecraft:zombie"
                 }
               }
             ]

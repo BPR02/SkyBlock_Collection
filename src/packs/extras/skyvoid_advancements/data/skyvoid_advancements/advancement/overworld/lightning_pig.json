@@ -22,10 +22,9 @@
       "trigger": "minecraft:lightning_strike",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "type_specific/player": {
             "looking_at": {
-              "type": "minecraft:zombified_piglin"
+              "entity_type": "minecraft:zombified_piglin"
             }
           }
         },

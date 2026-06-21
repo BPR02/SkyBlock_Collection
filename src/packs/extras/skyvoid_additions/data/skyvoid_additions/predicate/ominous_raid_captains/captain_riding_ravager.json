@@ -2,8 +2,7 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type_specific": {
-      "type": "minecraft:raider",
+    "type_specific/raider": {
       "has_raid": true,
       "is_captain": true
     },
@@ -11,7 +10,7 @@
       "structures": "minecraft:trial_chambers"
     },
     "vehicle": {
-      "type": "minecraft:ravager"
+      "entity_type": "minecraft:ravager"
     }
   }
 }

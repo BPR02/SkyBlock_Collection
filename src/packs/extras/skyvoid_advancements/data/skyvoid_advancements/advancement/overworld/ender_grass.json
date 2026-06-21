@@ -37,7 +37,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:enderman",
+              "entity_type": "minecraft:enderman",
               "nbt": "{carriedBlockState:{Name:\"minecraft:grass_block\"}}"
             }
           }

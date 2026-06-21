@@ -42,7 +42,7 @@
                   }
                 ],
                 "source_entity": {
-                  "type": "minecraft:creeper",
+                  "entity_type": "minecraft:creeper",
                   "nbt": "{powered:1b}"
                 }
               }

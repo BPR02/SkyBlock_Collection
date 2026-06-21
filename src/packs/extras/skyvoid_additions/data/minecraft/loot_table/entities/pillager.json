@@ -8,8 +8,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "type_specific": {
-              "type": "minecraft:raider",
+            "type_specific/raider": {
               "is_captain": true
             }
           }
@@ -60,7 +59,7 @@
               "condition": "minecraft:damage_source_properties",
               "predicate": {
                 "source_entity": {
-                  "type": "minecraft:player",
+                  "entity_type": "minecraft:player",
                   "effects": {
                     "minecraft:bad_omen": {
                       "amplifier": 4
@@ -101,8 +100,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "type_specific": {
-              "type": "minecraft:raider",
+            "type_specific/raider": {
               "has_raid": true,
               "is_captain": true
             }
