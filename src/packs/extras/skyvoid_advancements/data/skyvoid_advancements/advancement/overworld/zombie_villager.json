@@ -32,9 +32,9 @@
             "entity": "this",
             "predicate": {
               "vehicle": {
-                "type": "#minecraft:boat",
+                "entity_type": "#minecraft:boat",
                 "passenger": {
-                  "type": "minecraft:zombie_villager"
+                  "entity_type": "minecraft:zombie_villager"
                 }
               }
             }

@@ -5,7 +5,7 @@ from beet import BlockTag, Context, Draft
 from beet.contrib.vanilla import Vanilla
 from beet.contrib.worldgen import WorldgenBiome, WorldgenPlacedFeature
 
-VERSION = os.getenv("VERSION", "26.1")
+VERSION = os.getenv("VERSION", "26.2")
 NAME = "skyvoid_worldgen"  # name of the module
 DIR = f"worldgen/{NAME}/data"
 TEMP_PATH = f"worldgen/{NAME}/temp_files"

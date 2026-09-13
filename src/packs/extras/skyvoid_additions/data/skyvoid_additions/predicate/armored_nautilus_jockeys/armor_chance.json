@@ -8,7 +8,7 @@
     "entity": "this",
     "predicate": {
       "passenger": {
-        "type": "minecraft:drowned"
+        "entity_type": "minecraft:drowned"
       }
     }
   },
