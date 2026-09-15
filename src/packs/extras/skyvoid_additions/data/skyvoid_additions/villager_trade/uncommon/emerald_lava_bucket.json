@@ -1,0 +1,37 @@
+{
+  "gives": {
+    "id": "minecraft:lava_bucket"
+  },
+  "max_uses": 8,
+  "reputation_discount": 0.05,
+  "wants": {
+    "count": 5,
+    "id": "minecraft:emerald"
+  },
+  "merchant_predicate": [
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "skyvoid_additions"
+        },
+        "score": "load.status"
+      },
+      "range": 1
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "lava_from_traders"
+        },
+        "score": "skyvoid_config"
+      },
+      "range": 1
+    }
+  ]
+}
