@@ -1,0 +1,37 @@
+{
+  "gives": {
+    "id": "minecraft:disc_fragment_5"
+  },
+  "max_uses": 4,
+  "reputation_discount": 0.05,
+  "wants": {
+    "count": 4,
+    "id": "minecraft:emerald"
+  },
+  "merchant_predicate": [
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "skyvoid_additions"
+        },
+        "score": "load.status"
+      },
+      "range": 1
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "trader_additions"
+        },
+        "score": "skyvoid_config"
+      },
+      "range": 1
+    }
+  ]
+}

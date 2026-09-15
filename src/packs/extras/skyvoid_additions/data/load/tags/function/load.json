@@ -1,6 +1,5 @@
 {
     "values": [
-        {"id": "#load:gm4_trades", "required": false},
         "#load:skyvoid_additions"
     ]
 }

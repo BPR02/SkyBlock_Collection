@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "skyvoid_additions:uncommon/emerald_music_disc_creator",
+        "skyvoid_additions:uncommon/emerald_music_disc_otherside",
+        "skyvoid_additions:uncommon/emerald_music_disc_relic",
+        "skyvoid_additions:uncommon/emerald_mycelium",
+        "skyvoid_additions:uncommon/emerald_grass_block",
+        "skyvoid_additions:uncommon/emerald_enchanted_golden_apple",
+        "skyvoid_additions:uncommon/emerald_flow_pottery_sherd",
+        "skyvoid_additions:uncommon/emerald_guster_pottery_sherd",
+        "skyvoid_additions:uncommon/emerald_scrape_pottery_sherd",
+        "skyvoid_additions:uncommon/emerald_lava_bucket",
+        "skyvoid_additions:uncommon/emerald_sniffer_egg"
+    ]
+}
