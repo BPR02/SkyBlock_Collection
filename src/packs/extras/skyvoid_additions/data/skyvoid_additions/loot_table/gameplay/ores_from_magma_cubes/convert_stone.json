@@ -20,6 +20,11 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 60,
+          "name": "minecraft:cinnabar"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 55,
           "name": "minecraft:tuff"
         },
