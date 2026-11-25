@@ -25,6 +25,18 @@ all_worldgen = [
     WorldgenStructureTag,
     WorldgenConfiguredCarverTag,
     WorldgenPlacedFeatureTag,
+    WorldgenFeature,
+    WorldgenFeatureTag,
+    WorldgenMaterialRule,
+    WorldgenMaterialRuleTag,
+    WorldgenMaterialCondition,
+    WorldgenMaterialConditionTag,
+    WorldgenCarver,
+    WorldgenCarverTag,
+    WorldgenBlockStateProvider,
+    WorldgenBlockStateProviderTag,
+    WorldgenDensityFunction,
+    WorldgenDensityFunctionTag,
 ]
 
 

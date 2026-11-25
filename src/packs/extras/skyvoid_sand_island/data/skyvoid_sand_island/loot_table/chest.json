@@ -1,4 +1,5 @@
 {
+  "type": "minecraft:chest",
   "pools": [
     {
       "rolls": 1,
@@ -6,12 +7,10 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:obsidian",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 10
-            }
-          ]
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 10
+          }
         }
       ]
     },

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:simple_block",
+  "to_place": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "weight": 1,
+        "data": {
+          "id": "minecraft:sculk_shrieker",
+          "properties": {
+            "can_summon": "true",
+            "shrieking": "false",
+            "waterlogged": "false"
+          }
+        }
+      },
+      {
+        "weight": 10,
+        "data": {
+          "id": "minecraft:air"
+        }
+      }
+    ]
+  }
+}

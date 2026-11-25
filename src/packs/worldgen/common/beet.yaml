@@ -3,7 +3,8 @@ name: 'Sky Void Base'
 author: 'BPR'
 version: 2.0.0
 
-require: 
+require:
+  - beet.contrib.worldgen
   - src.plugins.worldgen.generate.base
 
 data_pack:
