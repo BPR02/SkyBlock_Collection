@@ -5,7 +5,7 @@ from beet import Context, Structure
 from beet.contrib.vanilla import Vanilla
 from nbtlib import *  # type: ignore
 
-VERSION = os.getenv("VERSION", "26.2")
+VERSION = os.getenv("VERSION", "26.3")
 NAME = "skyvoid_worldgen"  # name of the module
 DIR = f"worldgen/{NAME}/data"
 TEMP_PATH = f"worldgen/{NAME}/temp_files"
@@ -14,6 +14,7 @@ BIOME_FOLDER = f"minecraft/worldgen/biome"
 
 def beet_default(ctx: Context):
     target_structures: list[str] = [
+        "abandoned_camp",
         "ancient_city",
         "bastion",
         "end_city",
@@ -23,7 +24,7 @@ def beet_default(ctx: Context):
         "pillager_outpost",
         "ruined_portal",
         "shipwreck",
-        "trial_ruins",
+        "trail_ruins",
         "trial_chambers",
         "underwater_ruin",
         "village",
@@ -43,6 +44,7 @@ def beet_default(ctx: Context):
 
 def empty(ctx: Context):
     target_structures: list[str] = [
+        "abandoned_camp",
         "ancient_city",
         "bastion",
         "end_city",
@@ -52,7 +54,7 @@ def empty(ctx: Context):
         "pillager_outpost",
         "ruined_portal",
         "shipwreck",
-        "trial_ruins",
+        "trail_ruins",
         "trial_chambers",
         "underwater_ruin",
         "village",
@@ -66,6 +68,7 @@ def empty(ctx: Context):
 
 def normal_end(ctx: Context):
     target_structures: list[str] = [
+        "abandoned_camp",
         "ancient_city",
         "bastion",
         # "end_city",
@@ -75,7 +78,7 @@ def normal_end(ctx: Context):
         "pillager_outpost",
         "ruined_portal",
         "shipwreck",
-        "trial_ruins",
+        "trail_ruins",
         "trial_chambers",
         "underwater_ruin",
         "village",
@@ -89,6 +92,7 @@ def normal_end(ctx: Context):
 
 def spawners(ctx: Context):
     target_structures: list[str] = [
+        "abandoned_camp",
         "ancient_city",
         "bastion",
         "end_city",
@@ -98,7 +102,7 @@ def spawners(ctx: Context):
         "pillager_outpost",
         "ruined_portal",
         "shipwreck",
-        "trial_ruins",
+        "trail_ruins",
         "trial_chambers",
         "underwater_ruin",
         "village",
@@ -119,6 +123,7 @@ def spawners(ctx: Context):
 
 def pinu(ctx: Context):
     target_structures: list[str] = [
+        "abandoned_camp",
         "ancient_city",
         "bastion",
         # "end_city",
@@ -128,7 +133,7 @@ def pinu(ctx: Context):
         "pillager_outpost",
         "ruined_portal",
         "shipwreck",
-        "trial_ruins",
+        "trail_ruins",
         "trial_chambers",
         "underwater_ruin",
         "village",
@@ -140,6 +145,12 @@ def pinu(ctx: Context):
         # "allay"
     ]
     gen(ctx, target_structures, kept_pieces, kept_blocks, kept_entities, f"pinu_{VERSION}")
+
+
+def block_id(block) -> str:
+    """Return the block id stored on a 26.3 structure palette entry."""
+    raw = block["id"] if "id" in block else block["Name"]
+    return str(raw).removeprefix("minecraft:")
 
 
 def gen(
@@ -174,7 +185,7 @@ def gen(
                 if "palette" in data:
                     palette = data["palette"]  # type: ignore
                     for i, b in enumerate(palette):  # type: ignore
-                        if b["Name"].removeprefix("minecraft:") in kept_blocks:  # type: ignore
+                        if block_id(b) in kept_blocks:  # type: ignore
                             palette_swap.append(i)
                             new_palette.append(b)  # type: ignore
                     data["palette"] = new_palette
@@ -182,7 +193,7 @@ def gen(
                 if "palettes" in data:
                     palette = data["palettes"][0]  # type: ignore
                     for i, b in enumerate(palette):  # type: ignore
-                        if b["Name"].removeprefix("minecraft:") in kept_blocks:  # type: ignore
+                        if block_id(b) in kept_blocks:  # type: ignore
                             palette_swap.append(i)
                             new_palette.append(b)  # type: ignore
                     data["palette"] = new_palette

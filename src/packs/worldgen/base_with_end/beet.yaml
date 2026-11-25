@@ -3,6 +3,9 @@ name: 'Sky Void Base (Normal End)'
 author: 'BPR'
 version: 2.0.0
 
+require:
+  - beet.contrib.worldgen
+
 data_pack:
   load: .
 

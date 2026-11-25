@@ -5,7 +5,7 @@ description = "SkyBlock Data Packs"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "beet>=0.115.0",
+    "beet>=0.119.0",
     "mecha>=0.103.0",
     "bolt>=0.50.1",
     "requests>=2.28.1",

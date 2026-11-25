@@ -42,6 +42,7 @@ The nether island will generate with 40 netherrack, 7 crimson nylium, 7 warped n
 
 ### Structures
 All structure bounding boxes will generate (i.e. no blocks will generate) at the same coordinates along with some entities as they would in a normal world with the same seed. Below is a list of notable structures:
+- **Abandoned Camps** will generate the same bounding box without blocks
 - **Ancient Cities** will generate the same bounding boxes (mobs will not spawn in the bounding box) and sculk shriekers that can spawn wardens (location of shriekers won't match with a normal world)
 - **Ocean Monuments** will generate the same bounding box (guardians farms can be built as normal); elder guardians will generate, but immediately fall into the void
 - **Pillager Outposts** will generate the same bounding box (pillagers will spawn in the bounding box) with any allays that normally generate
